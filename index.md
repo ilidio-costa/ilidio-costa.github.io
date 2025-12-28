@@ -4,18 +4,13 @@ title: "Home"
 author_profile: false
 
 experience_gallery:
-  - image_path: /assets/images/rocket-thumb.jpg
+  - image_path: /assets/images/pst-thumb.png
     title: "Propulsion Lead @ Porto Space Team"
     excerpt: "**(2024 - Present)**<br>Leading the INVICTUS II hybrid rocket engine development."
     url: "/pages/experience-invictus/"
     btn_label: "View Role"
     btn_class: "btn--inverse"
 
-  - image_path: /assets/images/palbit-thumb.jpg
-    title: "R&D Intern @ Palbit"
-    excerpt: "**(2024 - 2025)**<br>Topology optimization of machining heads using nTop."
-    
-projects_gallery:
   - image_path: /assets/images/niti-thumb.jpg
     title: "NiTi L-PBF Optimization"
     excerpt: "**Master's Thesis**<br>Minimizing porosity to <0.07% in Shape Memory Alloys."
@@ -23,6 +18,8 @@ projects_gallery:
     btn_label: "View Case Study"
     btn_class: "btn--primary"
 
+    
+projects_gallery:
   - image_path: /assets/images/fem-thumb.jpg
     title: "Topology Optimization"
     excerpt: "**Research Project**<br>FEA analysis of cutting heads."
@@ -42,7 +39,7 @@ projects_gallery:
     align-items: center;
     gap: 40px;">
 
-    <img src="/assets/images/profile.jpg" alt="Profile" style="
+    <img src="/assets/images/profile.png" alt="Profile" style="
         width: 160px;
         height: 160px;
         border-radius: 50%;
@@ -124,3 +121,10 @@ projects_gallery:
 
 ## 📬 Contact
 Ready to build? [**Email Me**](mailto:ilidiomibritocosta@gmail.com).
+
+<style>
+  /* Hides the default top title ONLY on this page */
+  .masthead__branding {
+    display: none !important;
+  }
+</style>
