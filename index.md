@@ -77,7 +77,7 @@ projects_gallery:
 <br>
 
 ## 🚀 Experience
-{% include feature_row id="experience_gallery" type="left" %}
+{% include feature_row id="experience_gallery" type="center" %}
 
 <br>
 
@@ -97,7 +97,7 @@ projects_gallery:
 
 ## 🧪 Technical Projects
 
-{% include feature_row id="projects_gallery" type="left" %}
+{% include feature_row id="projects_gallery" type="center" %}
 
 <script>
 // This is a trick to render the feature rows without complex YAML
@@ -114,28 +114,32 @@ Ready to build? [**Email Me**](mailto:ilidiomibritocosta@gmail.com).
     display: none !important;
   }
 
-  /* 2. CARD LAYOUT FIXES (Image on Top) */
+  /* 2. THE IMAGE BOX (The Alignment Fix) */
   .archive__item-teaser {
-    margin-bottom: 1em; /* Adds space between image and title */
-    text-align: center; /* Centers the image */
+    height: 80px;          /* FIXED HEIGHT: Text will always start below this line */
+    display: flex;          /* Enables centering */
+    align-items: center;    /* Vertically centers the logo in the box */
+    justify-content: center;/* Horizontally centers the logo */
+    margin-bottom: 20px;    /* Standard space between Image and Text */
+    padding: 10px;          /* Breathing room */
   }
 
+  /* 3. THE LOGO ITSELF */
   .archive__item-teaser img {
-    max-height: 160px;  /* Limits height so tall logos don't dominate */
-    width: auto;        /* Keeps aspect ratio correct */
-    margin: 0 auto;     /* Centers the image horizontally */
-    display: block;
+    max-height: 100%;       /* Ensure it fits in the 160px box */
+    max-width: 100%;        /* Ensure wide logos don't overflow */
+    width: auto;            /* Maintain aspect ratio */
+    object-fit: contain;    /* Keep sharp */
   }
 
-  /* 3. CENTER THE TEXT */
+  /* 4. THE TEXT (Force Left Alignment) */
   .archive__item-body {
-    text-align: center; /* Centers title and description */
+    text-align: left !important; /* Forces the title and description to the left */
+    padding-left: 10px;          /* Aligns slightly with the image box */
   }
-  
-  /* Optional: Force 2 cards per row on large screens if they look too spread out */
-  @media (min-width: 1024px) {
-    .feature__item {
-      flex: 1 1 45%; /* Forces cards to share the row */
-    }
+
+  /* 5. MAKE CARDS UNIFORM */
+  .feature__item {
+    margin-bottom: 40px;    /* Space between rows */
   }
 </style>
