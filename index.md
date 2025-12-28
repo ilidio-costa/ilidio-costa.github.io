@@ -40,8 +40,8 @@ projects_gallery:
     gap: 40px;">
 
     <img src="/assets/images/profile.png" alt="Profile" style="
-        width: 160px;
-        height: 160px;
+        width: 180px;
+        height: 180px;
         border-radius: 50%;
         border: 4px solid white;
         object-fit: cover;
@@ -123,8 +123,17 @@ projects_gallery:
 Ready to build? [**Email Me**](mailto:ilidiomibritocosta@gmail.com).
 
 <style>
-  /* Hides the default top title ONLY on this page */
+  /* 1. Hides the default top title ONLY on this page */
   .masthead__branding {
     display: none !important;
+  }
+
+  /* 2. LIMITS THE LOGO HEIGHT */
+  /* This targets the images inside the experience/project cards */
+  .archive__item-teaser img {
+    max-height: 150px;   /* Prevents logos from being huge */
+    width: auto;         /* Keeps the aspect ratio (doesn't stretch) */
+    display: block;      /* Helps with alignment */
+    margin: 0 auto 15px; /* Centers the logo and adds space below */
   }
 </style>
