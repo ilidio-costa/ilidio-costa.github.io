@@ -68,11 +68,29 @@ projects_gallery:
 
 ## 🛠️ Skills & Stack
 
-| **Additive Mfg.** | **Characterization** | **Software** |
-| :--- | :--- | :--- |
-| L-PBF (EOS M290) | SEM / EDS / EBSD | Python (Pandas/Matplotlib) |
-| Design for AM (DfAM) | XRD & XRF | nTop (Topology Opt) |
-| Parameter Optimization | Optical Microscopy | Abaqus (FEA) |
+<div class="marquee-container">
+  <div class="marquee-content">
+    <span class="skill-pill">L-PBF (EOS M290)</span>
+    <span class="skill-pill">Design for AM (DfAM)</span>
+    <span class="skill-pill">Parameter Optimization</span>
+    <span class="skill-pill">SEM / EDS / EBSD</span>
+    <span class="skill-pill">XRD & XRF</span>
+    <span class="skill-pill">Optical Microscopy</span>
+    <span class="skill-pill">Python (Pandas/Matplotlib)</span>
+    <span class="skill-pill">nTop (Topology Opt)</span>
+    <span class="skill-pill">Abaqus (FEA)</span>
+    
+    <span class="skill-pill">L-PBF (EOS M290)</span>
+    <span class="skill-pill">Design for AM (DfAM)</span>
+    <span class="skill-pill">Parameter Optimization</span>
+    <span class="skill-pill">SEM / EDS / EBSD</span>
+    <span class="skill-pill">XRD & XRF</span>
+    <span class="skill-pill">Optical Microscopy</span>
+    <span class="skill-pill">Python (Pandas/Matplotlib)</span>
+    <span class="skill-pill">nTop (Topology Opt)</span>
+    <span class="skill-pill">Abaqus (FEA)</span>
+  </div>
+</div>
 
 <br>
 
@@ -141,5 +159,57 @@ Ready to build? [**Email Me**](mailto:ilidiomibritocosta@gmail.com).
   /* 5. MAKE CARDS UNIFORM */
   .feature__item {
     margin-bottom: 40px;    /* Space between rows */
+  }
+
+
+  /* Container for the marquee */
+  .marquee-container {
+    width: 100%;
+    overflow: hidden;
+    padding: 20px 0;
+    position: relative;
+    background: transparent;
+    /* Optional: Adds a fade effect at the edges */
+    -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+    mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+  }
+
+  /* The moving track */
+  .marquee-content {
+    display: flex;
+    gap: 20px;
+    width: max-content;
+    animation: scroll-left 30s linear infinite;
+  }
+
+  /* Style for each individual skill "pill" */
+  .skill-pill {
+    padding: 10px 20px;
+    background: #f0f0f0;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 0.9em;
+    white-space: nowrap;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  }
+
+  /* Dark mode adjustment for Contrast skin */
+  .skill-pill {
+    background: #252a34;
+    color: #eee;
+    border-color: #454d5d;
+  }
+
+  /* Animation keyframes */
+  @keyframes scroll-left {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); } /* Moves halfway through the double list */
+  }
+
+  /* Pause on hover so people can read */
+  .marquee-container:hover .marquee-content {
+    animation-play-state: paused;
   }
 </style>
