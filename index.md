@@ -77,7 +77,7 @@ projects_gallery:
 <br>
 
 ## 🚀 Experience
-{% include feature_row id="experience_gallery" type="left" %}
+{% include feature_row id="experience_gallery" type="center" %}
 
 <br>
 
@@ -97,7 +97,7 @@ projects_gallery:
 
 ## 🧪 Technical Projects
 
-{% include feature_row id="projects_gallery" type="left" %}
+{% include feature_row id="projects_gallery" type="center" %}
 
 <script>
 // This is a trick to render the feature rows without complex YAML
