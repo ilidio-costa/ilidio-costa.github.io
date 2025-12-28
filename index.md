@@ -43,8 +43,8 @@ projects_gallery:
     gap: 40px;">
 
     <img src="/assets/images/profile.png" alt="Profile" style="
-        width: 180px;
-        height: 180px;
+        width: 250px;
+        height: 250px;
         border-radius: 50%;
         border: 4px solid white;
         object-fit: cover;
@@ -114,37 +114,28 @@ Ready to build? [**Email Me**](mailto:ilidiomibritocosta@gmail.com).
     display: none !important;
   }
 
-  /* 2. FIXED WIDTH COLUMN (The Alignment Fix) */
-  /* This forces the image container to always be 20% width (or min 200px) */
-  /* This creates a straight vertical line where your text starts */
+  /* 2. CARD LAYOUT FIXES (Image on Top) */
   .archive__item-teaser {
-    width: 20%;             /* Adjust this % to give more/less space to logos */
-    min-width: 180px;       /* Ensures it doesn't get too small */
-    padding-right: 20px;    /* Adds standard spacing between logo and text */
-    text-align: center;     /* Centers the logo inside its box */
+    margin-bottom: 1em; /* Adds space between image and title */
+    text-align: center; /* Centers the image */
   }
 
-  /* 3. CONTROL LOGO SIZE */
   .archive__item-teaser img {
-    max-height: 80px;      /* Limits height so they don't get huge */
-    width: auto;            /* Keeps them crisp */
-    margin: 0 auto;         /* Centers them */
+    max-height: 160px;  /* Limits height so tall logos don't dominate */
+    width: auto;        /* Keeps aspect ratio correct */
+    margin: 0 auto;     /* Centers the image horizontally */
+    display: block;
   }
 
-  /* 4. ALIGN THE TEXT */
-  /* Ensures the title and text align neatly to the right of the logo */
+  /* 3. CENTER THE TEXT */
   .archive__item-body {
-    width: 80%;             /* The text takes up the rest of the space */
-    padding-left: 0;        /* Removes messy default padding */
-    text-align: left;       /* Standard reading alignment */
+    text-align: center; /* Centers title and description */
   }
-
-  /* Mobile Fix: Stack them on small screens */
-  @media (max-width: 768px) {
-    .archive__item-teaser, .archive__item-body {
-      width: 100%;
-      display: block;
-      text-align: center;
+  
+  /* Optional: Force 2 cards per row on large screens if they look too spread out */
+  @media (min-width: 1024px) {
+    .feature__item {
+      flex: 1 1 45%; /* Forces cards to share the row */
     }
   }
 </style>
