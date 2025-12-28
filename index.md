@@ -2,7 +2,7 @@
 layout: splash
 author_profile: true
 header:
-  overlay_image: /assets/images/banner.jpg
+  overlay_image: /assets/images/banner.png
   overlay_filter: 0.5 # Darkens image so text is readable
   caption: "Engineering the future of spaceflight"
 
