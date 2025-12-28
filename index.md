@@ -1,33 +1,34 @@
 ---
 layout: splash
 author_profile: true
+title: "Engineering Portfolio"  # <--- FIXES DOUBLE NAME (Replaces the second "Ilidio Costa")
 header:
-  overlay_image: /assets/images/banner.png
-  overlay_filter: 0.5 # Darkens image so text is readable
+  overlay_image: /assets/images/banner.png # <--- FIXED EXTENSION (Matches your uploaded .png)
+  overlay_filter: 0.5
   caption: "Engineering the future of spaceflight"
 
 # --- DATA FOR CARDS ---
 
-# 1. EXPERIENCE (Brief summaries of your roles)
+# 1. EXPERIENCE
 experience_gallery:
   - image_path: /assets/images/rocket-thumb.jpg
     title: "Propulsion Lead @ Porto Space Team"
     excerpt: "**(2024 - Present)**<br>Leading the INVICTUS II hybrid rocket engine development. Managed hot-fire testing, safety protocols, and team budget."
-    url: "/pages/experience-invictus" # Links to the detailed experience page below
+    url: "/pages/experience-invictus/" # <--- ENSURE THIS LINK WORKS
     btn_label: "View Role Details"
     btn_class: "btn--inverse"
 
   - image_path: /assets/images/palbit-thumb.jpg
     title: "R&D Intern @ Palbit"
     excerpt: "**(2024 - 2025)**<br>Topology optimization of machining heads using nTop to reduce mass while maintaining structural stiffness."
-    # No link here if you don't have a separate page for this yet
+    # No link here yet
 
-# 2. PROJECTS (Deep Engineering Case Studies)
+# 2. PROJECTS
 projects_gallery:
   - image_path: /assets/images/niti-thumb.jpg
     title: "NiTi L-PBF Optimization"
     excerpt: "**Master's Thesis**<br>Minimizing porosity to <0.07% in Shape Memory Alloys using Taguchi DoE and microstructural analysis."
-    url: "/pages/project-niti" # Links to the detailed project page below
+    url: "/pages/project-niti/" # <--- ENSURE THIS LINK WORKS
     btn_label: "View Case Study"
     btn_class: "btn--primary"
 
