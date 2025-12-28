@@ -1,19 +1,14 @@
 ---
-layout: default
-title: Ilídio Costa | Materials & Spacecraft Engineer
+layout: single
+author_profile: true
+title: "About Me"
+header:
+  overlay_image: /banner.jpg # Ensure you have banner.jpg in your repo
+  overlay_filter: 0.5 # Darkens the image so text is readable
 ---
 
-# Ilídio Costa
-### Materials Engineer | Additive Manufacturing & Propulsion
 
-[Download My CV (PDF)](./path-to-your-cv.pdf) | [LinkedIn](https://linkedin.com/in/yourprofile) | [Email](mailto:ilidiomibritocosta@gmail.com)
-
----
-
-## About Me
-I am a **Materials Engineer** bridging the gap between metallurgy and aerospace systems. Currently researching at **FEUP & CATEC**, I specialize in optimizing Additive Manufacturing (AM) parameters for critical applications.
-
-My background spans from defining **NiTi L-PBF process windows** to leading the propulsion department for the **Porto Space Team**, where I managed the development of the **INVICTUS II** hybrid rocket engine. I use data-driven methods (Python, DoE, FEA) to solve manufacturing challenges at the micro and macro scale.
+I am a **Materials Engineer** bridging the gap between metallurgy and aerospace systems. I specialize in optimizing Additive Manufacturing (AM) parameters for critical applications.
 
 ---
 
