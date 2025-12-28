@@ -15,14 +15,17 @@ experience_gallery:
     title: "NiTi L-PBF Optimization"
     excerpt: "**Master's Thesis**<br>Minimizing porosity to <0.07% in Shape Memory Alloys."
     url: "/pages/project-niti/"
-    btn_label: "View Case Study"
-    btn_class: "btn--primary"
+    btn_label: "View Role"
+    btn_class: "btn--inverse"
 
     
 projects_gallery:
   - image_path: /assets/images/fem-thumb.jpg
     title: "Topology Optimization"
     excerpt: "**Research Project**<br>FEA analysis of cutting heads."
+    url: "/pages/project-niti/"
+    btn_label: "View Case Study"
+    btn_class: "btn--primary"
 ---
 
 <div style="
@@ -96,23 +99,6 @@ projects_gallery:
 
 {% include feature_row id="projects_gallery" type="left" %}
 
-{% assign experience_gallery = site.empty_array %}
-{% assign projects_gallery = site.empty_array %}
-
-{% capture exp_1_title %}Propulsion Lead @ Porto Space Team{% endcapture %}
-{% capture exp_1_excerpt %}**(2024 - Present)**<br>Leading the INVICTUS II hybrid rocket engine development. Managed hot-fire testing, safety protocols, and team budget.{% endcapture %}
-{% capture exp_1_url %}/pages/experience-invictus/{% endcapture %}
-
-{% capture exp_2_title %}R&D Intern @ Palbit{% endcapture %}
-{% capture exp_2_excerpt %}**(2024 - 2025)**<br>Topology optimization of machining heads using nTop to reduce mass while maintaining structural stiffness.{% endcapture %}
-
-{% capture proj_1_title %}NiTi L-PBF Optimization{% endcapture %}
-{% capture proj_1_excerpt %}**Master's Thesis**<br>Minimizing porosity to <0.07% in Shape Memory Alloys using Taguchi DoE.{% endcapture %}
-{% capture proj_1_url %}/pages/project-niti/{% endcapture %}
-
-{% capture proj_2_title %}Topology Optimization Study{% endcapture %}
-{% capture proj_2_excerpt %}**Research Project**<br>FEA analysis of cutting heads to reduce inertia in high-speed machining.{% endcapture %}
-
 <script>
 // This is a trick to render the feature rows without complex YAML
 </script>
@@ -123,17 +109,42 @@ projects_gallery:
 Ready to build? [**Email Me**](mailto:ilidiomibritocosta@gmail.com).
 
 <style>
-  /* 1. Hides the default top title ONLY on this page */
+  /* 1. Hide Top Title */
   .masthead__branding {
     display: none !important;
   }
 
-  /* 2. LIMITS THE LOGO HEIGHT */
-  /* This targets the images inside the experience/project cards */
+  /* 2. FIXED WIDTH COLUMN (The Alignment Fix) */
+  /* This forces the image container to always be 20% width (or min 200px) */
+  /* This creates a straight vertical line where your text starts */
+  .archive__item-teaser {
+    width: 20%;             /* Adjust this % to give more/less space to logos */
+    min-width: 180px;       /* Ensures it doesn't get too small */
+    padding-right: 20px;    /* Adds standard spacing between logo and text */
+    text-align: center;     /* Centers the logo inside its box */
+  }
+
+  /* 3. CONTROL LOGO SIZE */
   .archive__item-teaser img {
-    max-height: 150px;   /* Prevents logos from being huge */
-    width: auto;         /* Keeps the aspect ratio (doesn't stretch) */
-    display: block;      /* Helps with alignment */
-    margin: 0 auto 15px; /* Centers the logo and adds space below */
+    max-height: 80px;      /* Limits height so they don't get huge */
+    width: auto;            /* Keeps them crisp */
+    margin: 0 auto;         /* Centers them */
+  }
+
+  /* 4. ALIGN THE TEXT */
+  /* Ensures the title and text align neatly to the right of the logo */
+  .archive__item-body {
+    width: 80%;             /* The text takes up the rest of the space */
+    padding-left: 0;        /* Removes messy default padding */
+    text-align: left;       /* Standard reading alignment */
+  }
+
+  /* Mobile Fix: Stack them on small screens */
+  @media (max-width: 768px) {
+    .archive__item-teaser, .archive__item-body {
+      width: 100%;
+      display: block;
+      text-align: center;
+    }
   }
 </style>
