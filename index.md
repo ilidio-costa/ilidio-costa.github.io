@@ -70,10 +70,16 @@ projects_gallery:
 
 ## Skills
 
-#### Manufacturing Technologies 
 
-<div class="marquee-container drag-scroll">
+<div class="marquee-container drag-scroll" data-speed="1">
   <div class="marquee-content">
+    <span class="skill-pill">AM (Additive Manufacturing)</span>
+    <span class="skill-pill">L-PBF (Laser Powder Bed Fusion)</span>
+    <span class="skill-pill">DED (Direct Energy Deposition)</span>
+    <span class="skill-pill">FFF (Fused Filament Fabrication)</span>
+    <span class="skill-pill">Welding Processes</span>
+    <span class="skill-pill">Machinning</span>
+    <span class="skill-pill">Casting</span>
     <span class="skill-pill">AM (Additive Manufacturing)</span>
     <span class="skill-pill">L-PBF (Laser Powder Bed Fusion)</span>
     <span class="skill-pill">DED (Direct Energy Deposition)</span>
@@ -83,11 +89,20 @@ projects_gallery:
     <span class="skill-pill">Casting</span>
   </div>
 </div>
+ 
 
-#### Material Characterisation  
-
-<div class="marquee-container drag-scroll">
+<div class="marquee-container drag-scroll" data-speed="-1">
   <div class="marquee-content reverse">
+    <span class="skill-pill highlight">SEM + EDS|EBSD (Scanning Electron Microscopy)</span>
+    <span class="skill-pill highlight">XRD (X-Ray Diffraction)</span>
+    <span class="skill-pill highlight">XRF (X-Ray Fluorescence)</span>    
+    <span class="skill-pill highlight">OM (Optical Microscopy)</span>
+    <span class="skill-pill highlight">LD (Laser Diffraction)</span>
+    <span class="skill-pill highlight">DSC (Differential Scanning Calorimetry)</span>
+    <span class="skill-pill highlight">AAS (Atomic Absorption Spectroscopy)</span>
+    <span class="skill-pill highlight">FTIR (Fourier Transform Infrared Spectroscopy)</span>          
+    <span class="skill-pill highlight">Hall flow test</span>
+    <span class="skill-pill highlight">Hausner ratio</span>
     <span class="skill-pill highlight">SEM + EDS|EBSD (Scanning Electron Microscopy)</span>
     <span class="skill-pill highlight">XRD (X-Ray Diffraction)</span>
     <span class="skill-pill highlight">XRF (X-Ray Fluorescence)</span>    
@@ -101,10 +116,21 @@ projects_gallery:
   </div>
 </div>
 
-#### Software Tools
 
-<div class="marquee-container drag-scroll drag-scroll">
+<div class="marquee-container drag-scroll drag-scroll" data-speed="1">
   <div class="marquee-content">
+    <span class="skill-pill">Fusion 360 (CAD)</span>
+    <span class="skill-pill">NX Siemens (CAD, TopOp)</span>
+    <span class="skill-pill">Onshape (CAD)</span>
+    <span class="skill-pill">nTop (Parametric Design, TopOp, FEA)</span>
+    <span class="skill-pill">Granta Edupack</span>
+    <span class="skill-pill">PowerMill (CAM)</span>
+    <span class="skill-pill">Materialise Magics (CAM for AM)</span>
+    <span class="skill-pill">FFF slicers (Cura, Bambu studio)</span>
+    <span class="skill-pill">Inage J | Fiji</span>
+    <span class="skill-pill">TSM OIM (Analysis 5 & Data Collection 5)</span>
+    <span class="skill-pill">Abaqus (FEA)</span>
+    <span class="skill-pill">Github</span>
     <span class="skill-pill">Fusion 360 (CAD)</span>
     <span class="skill-pill">NX Siemens (CAD, TopOp)</span>
     <span class="skill-pill">Onshape (CAD)</span>
@@ -120,10 +146,17 @@ projects_gallery:
   </div>
 </div>
 
-#### Programming Languages & Libraries
 
-<div class="marquee-container drag-scroll">
+<div class="marquee-container drag-scroll" data-speed="-1">
   <div class="marquee-content reverse">
+    <span class="skill-pill highlight">Python</span>
+    <span class="skill-pill highlight">Visual Basic</span>
+    <span class="skill-pill highlight">Numpy</span>
+    <span class="skill-pill highlight">Matplolib</span>
+    <span class="skill-pill highlight">Pandas</span>
+    <span class="skill-pill highlight">pymatgen</span>
+    <span class="skill-pill highlight">RocketCEA</span>
+    <span class="skill-pill highlight">Coolprop</span>
     <span class="skill-pill highlight">Python</span>
     <span class="skill-pill highlight">Visual Basic</span>
     <span class="skill-pill highlight">Numpy</span>
@@ -206,71 +239,88 @@ Ready to build? [**Email Me**](mailto:ilidiomibritocosta@gmail.com).
 
 .marquee-container {
     width: 100%;
-    overflow-x: auto; /* Required for dragging/scrolling */
+    overflow-x: hidden; /* Hide scrollbar */
     white-space: nowrap;
-    cursor: grab; /* Shows the "hand" icon */
+    cursor: grab;
     padding: 10px 0;
-    -webkit-mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent);
-    mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent);
-    scrollbar-width: none; /* Hides scrollbar in Firefox */
-  }
-
-  /* Hides scrollbar in Chrome/Safari */
-  .marquee-container::-webkit-scrollbar {
-    display: none;
+    margin-bottom: 5px;
+    position: relative;
+    -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+    mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
   }
 
   .marquee-container:active {
-    cursor: grabbing; /* Changes icon when clicking */
+    cursor: grabbing;
   }
 
   .marquee-content {
     display: inline-flex;
     gap: 15px;
-    /* We remove the infinite CSS animation so it doesn't fight with the user's mouse */
+    will-change: transform;
   }
 
   .skill-pill {
     padding: 8px 18px;
-    background: #252a34; /* Matches Contrast theme */
+    background: #252a34; /* Matches Minimal Mistakes 'contrast' skin */
     color: #eee;
     border: 1px solid #454d5d;
     border-radius: 4px;
     font-weight: 500;
     font-family: "Roboto Mono", monospace;
     font-size: 0.85rem;
-    user-select: none; /* Prevents text highlighting while dragging */
+    user-select: none;
+  }
+
+  .skill-pill.highlight {
+    border-color: #0077b5;
   }
 </style>
 
 <script>
-  const sliders = document.querySelectorAll('.drag-scroll');
-  let isDown = false;
-  let startX;
-  let scrollLeft;
+  const containers = document.querySelectorAll('.drag-scroll');
 
-  sliders.forEach(slider => {
-    slider.addEventListener('mousedown', (e) => {
+  containers.forEach(container => {
+    let isDown = false;
+    let startX;
+    let scrollLeft;
+    let scrollPos = 0;
+    const speed = parseFloat(container.getAttribute('data-speed'));
+    const content = container.querySelector('.marquee-content');
+
+    // 1. AUTO-SCROLL LOGIC
+    function step() {
+      if (!isDown) {
+        scrollPos += speed;
+        // Reset position for infinite loop effect
+        const maxScroll = content.scrollWidth / 2;
+        if (Math.abs(scrollPos) >= maxScroll) {
+          scrollPos = 0;
+        }
+        container.scrollLeft = scrollPos;
+      }
+      requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+
+    // 2. DRAG LOGIC
+    container.addEventListener('mousedown', (e) => {
       isDown = true;
-      slider.classList.add('active');
-      startX = e.pageX - slider.offsetLeft;
-      scrollLeft = slider.scrollLeft;
+      startX = e.pageX - container.offsetLeft;
+      scrollLeft = container.scrollLeft;
     });
 
-    slider.addEventListener('mouseleave', () => {
+    container.addEventListener('mouseleave', () => isDown = false);
+    container.addEventListener('mouseup', () => {
       isDown = false;
+      scrollPos = container.scrollLeft; // Sync auto-scroll with manual drag end
     });
 
-    slider.addEventListener('mouseup', () => {
-      isDown = false;
-    });
-
-    slider.addEventListener('mousemove', (e) => {
+    container.addEventListener('mousemove', (e) => {
       if (!isDown) return;
       e.preventDefault();
-      const x = e.pageX - slider.offsetLeft;
-      const walk = (x - startX) * 2; // The "2" controls scroll speed
-      slider.scrollLeft = scrollLeft - walk;
+      const x = e.pageX - container.offsetLeft;
+      const walk = (x - startX) * 2; 
+      container.scrollLeft = scrollLeft - walk;
     });
   });
 </script>
