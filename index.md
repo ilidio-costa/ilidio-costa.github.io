@@ -91,7 +91,7 @@ projects_gallery:
 </div>
  
 
-<div class="marquee-container drag-scroll" data-speed="-1">
+<div class="marquee-container drag-scroll" data-speed="-1.2">
   <div class="marquee-content reverse">
     <span class="skill-pill highlight">SEM + EDS|EBSD (Scanning Electron Microscopy)</span>
     <span class="skill-pill highlight">XRD (X-Ray Diffraction)</span>
@@ -147,7 +147,7 @@ projects_gallery:
 </div>
 
 
-<div class="marquee-container drag-scroll" data-speed="-1">
+<div class="marquee-container drag-scroll" data-speed="-1.2">
   <div class="marquee-content reverse">
     <span class="skill-pill highlight">Python</span>
     <span class="skill-pill highlight">Visual Basic</span>
