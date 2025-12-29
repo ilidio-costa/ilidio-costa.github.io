@@ -10,8 +10,8 @@ mathjax: true
 
 **Project:** Master's Dissertation | **Tools:** Python, ImageJ, SEM, EBSD | **Material:** Nitinol (NiTi)
 
-> [!WARNING]
-> These work is results are protected, thus can not be shared
+{: .notice--danger}
+**Restricted Access:** This work contains protected results and cannot be fully shared.
 
 ## 1. The Engineering Challenge
 Processing Nitinol (NiTi) via Laser Powder Bed Fusion (L-PBF) is challenging due to its sensitivity to thermal history. The goal was to minimize porosity while preserving the shape memory effect.
@@ -19,7 +19,7 @@ Processing Nitinol (NiTi) via Laser Powder Bed Fusion (L-PBF) is challenging due
 ## 2. Methodology: Taguchi DoE
 [cite_start]I utilized a **Taguchi Design of Experiments** to minimize the number of print jobs required to find the optimal window[cite: 8].
 
-$$E = \frac{P}{v \cdot h \cdot t}$$
+$$ E = \frac{P}{v \cdot h \cdot t} $$
 
 * **Variable 1:** Laser Power (W)
 * **Variable 2:** Scanning Speed (mm/s)
