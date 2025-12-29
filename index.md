@@ -52,7 +52,7 @@ projects_gallery:
 
     <div style="flex: 1; min-width: 300px;">
         <h1 style="color: white; margin: 0; font-size: 3em; line-height: 1.1; text-transform: none;">Ilídio Costa</h1>
-        <p style="font-size: 1.4em; color: #aabccd; margin: 10px 0 0 0; font-weight: 300;">Materials Engineer | Additive Manufacturing & Propulsion</p>
+        <p style="font-size: 1.4em; color: #aabccd; margin: 10px 0 0 0; font-weight: 300;">Materials Engineer | Additive Manufacturing | Propulsion</p>
         
         <p style="font-size: 1.1em; color: #eee; margin-top: 20px; max-width: 600px;">
             Bridging the gap between metallurgy and aerospace systems. Currently optimizing <b>NiTi L-PBF parameters</b> and leading propulsion at <b>Porto Space Team</b>.
@@ -61,40 +61,83 @@ projects_gallery:
         <div style="margin-top: 25px; display: flex; gap: 15px; flex-wrap: wrap;">
             <a href="/assets/pdfs/CV_Ilidio_Costa.pdf" style="background: white; color: #1a1a1a; padding: 10px 20px; border-radius: 4px; text-decoration: none; font-weight: bold;">Download CV</a>
             <a href="mailto:ilidiomibritocosta@gmail.com" style="border: 2px solid white; color: white; padding: 8px 20px; border-radius: 4px; text-decoration: none;">Email Me</a>
-            <a href="https://linkedin.com" style="border: 2px solid #0077b5; background: #0077b5; color: white; padding: 8px 20px; border-radius: 4px; text-decoration: none;">LinkedIn</a>
+            <a href="https://linkedin.com/in/ilidio-costa/" style="border: 2px solid #0077b5; background: #0077b5; color: white; padding: 8px 20px; border-radius: 4px; text-decoration: none;">LinkedIn</a>
+            <a href="https://orcid.org/0009-0003-0793-4180" style="border: 2px solid #a6ce39; background: #a6ce39; color: white; padding: 8px 20px; border-radius: 4px; text-decoration: none;">ORCID</a>
+            <a href="https://www.researchgate.net/profile/Ilidio-De-Brito-Costa" style="border: 2px solid #00d0af; background: #00d0af; color: white; padding: 8px 20px; border-radius: 4px; text-decoration: none;">ResearchGate</a>
         </div>
     </div>
 </div>
 
-## 🛠️ Skills & Stack
+## Skills
 
-<div class="marquee-container">
+#### Manufacturing Technologies 
+
+<div class="marquee-container drag-scroll">
   <div class="marquee-content">
-    <span class="skill-pill">L-PBF (EOS M290)</span>
-    <span class="skill-pill">Design for AM (DfAM)</span>
-    <span class="skill-pill">Parameter Optimization</span>
-    <span class="skill-pill">SEM / EDS / EBSD</span>
-    <span class="skill-pill">XRD & XRF</span>
-    <span class="skill-pill">Optical Microscopy</span>
-    <span class="skill-pill">Python (Pandas/Matplotlib)</span>
-    <span class="skill-pill">nTop (Topology Opt)</span>
+    <span class="skill-pill">AM (Additive Manufacturing)</span>
+    <span class="skill-pill">L-PBF (Laser Powder Bed Fusion)</span>
+    <span class="skill-pill">DED (Direct Energy Deposition)</span>
+    <span class="skill-pill">FFF (Fused Filament Fabrication)</span>
+    <span class="skill-pill">Welding Processes</span>
+    <span class="skill-pill">Machinning</span>
+    <span class="skill-pill">Casting</span>
+  </div>
+</div>
+
+#### Material Characterisation  
+
+<div class="marquee-container drag-scroll">
+  <div class="marquee-content reverse">
+    <span class="skill-pill highlight">SEM + EDS|EBSD (Scanning Electron Microscopy)</span>
+    <span class="skill-pill highlight">XRD (X-Ray Diffraction)</span>
+    <span class="skill-pill highlight">XRF (X-Ray Fluorescence)</span>    
+    <span class="skill-pill highlight">OM (Optical Microscopy)</span>
+    <span class="skill-pill highlight">LD (Laser Diffraction)</span>
+    <span class="skill-pill highlight">DSC (Differential Scanning Calorimetry)</span>
+    <span class="skill-pill highlight">AAS (Atomic Absorption Spectroscopy)</span>
+    <span class="skill-pill highlight">FTIR (Fourier Transform Infrared Spectroscopy)</span>          
+    <span class="skill-pill highlight">Hall flow test</span>
+    <span class="skill-pill highlight">Hausner ratio</span>
+  </div>
+</div>
+
+#### Software Tools
+
+<div class="marquee-container drag-scroll drag-scroll">
+  <div class="marquee-content">
+    <span class="skill-pill">Fusion 360 (CAD)</span>
+    <span class="skill-pill">NX Siemens (CAD, TopOp)</span>
+    <span class="skill-pill">Onshape (CAD)</span>
+    <span class="skill-pill">nTop (Parametric Design, TopOp, FEA)</span>
+    <span class="skill-pill">Granta Edupack</span>
+    <span class="skill-pill">PowerMill (CAM)</span>
+    <span class="skill-pill">Materialise Magics (CAM for AM)</span>
+    <span class="skill-pill">FFF slicers (Cura, Bambu studio)</span>
+    <span class="skill-pill">Inage J | Fiji</span>
+    <span class="skill-pill">TSM OIM (Analysis 5 & Data Collection 5)</span>
     <span class="skill-pill">Abaqus (FEA)</span>
-    
-    <span class="skill-pill">L-PBF (EOS M290)</span>
-    <span class="skill-pill">Design for AM (DfAM)</span>
-    <span class="skill-pill">Parameter Optimization</span>
-    <span class="skill-pill">SEM / EDS / EBSD</span>
-    <span class="skill-pill">XRD & XRF</span>
-    <span class="skill-pill">Optical Microscopy</span>
-    <span class="skill-pill">Python (Pandas/Matplotlib)</span>
-    <span class="skill-pill">nTop (Topology Opt)</span>
-    <span class="skill-pill">Abaqus (FEA)</span>
+    <span class="skill-pill">Github</span>
+  </div>
+</div>
+
+#### Programming Languages & Libraries
+
+<div class="marquee-container drag-scroll">
+  <div class="marquee-content reverse">
+    <span class="skill-pill highlight">Python</span>
+    <span class="skill-pill highlight">Visual Basic</span>
+    <span class="skill-pill highlight">Numpy</span>
+    <span class="skill-pill highlight">Matplolib</span>
+    <span class="skill-pill highlight">Pandas</span>
+    <span class="skill-pill highlight">pymatgen</span>
+    <span class="skill-pill highlight">RocketCEA</span>
+    <span class="skill-pill highlight">Coolprop</span>
   </div>
 </div>
 
 <br>
 
-## 🚀 Experience
+## Experience
 {% include feature_row id="experience_gallery" type="center" %}
 
 <br>
@@ -102,18 +145,18 @@ projects_gallery:
 ## 🎓 Education
 
 **MSc Materials Engineering** | *FEUP, Porto (2025)*
-* **Thesis:** Parameter Optimization of Laser Powder Bed Fusion of NiTi.
+* **Dissertation:** Parameter Optimization of Laser Powder Bed Fusion of NiTi.
 * **Focus:** Metallurgy, Thermodynamics, and AM Process Development.
 
 **Powder Metallurgy Summer School** | *EPMA, Sweden (June 2025)*
 * Intensive 5-day training on Sintering, MIM, and HIP technologies.
 
 **BSc Materials Engineering** | *FEUP, Porto (2023)*
-* **Capstone:** Topological Optimization of Avionic Bay Support.
+* **Dissertation:** Topological Optimization of Avionic Bay Support.
 
 <br>
 
-## 🧪 Technical Projects
+## Technical Projects
 
 {% include feature_row id="projects_gallery" type="center" %}
 
@@ -161,55 +204,73 @@ Ready to build? [**Email Me**](mailto:ilidiomibritocosta@gmail.com).
     margin-bottom: 40px;    /* Space between rows */
   }
 
-
-  /* Container for the marquee */
-  .marquee-container {
+.marquee-container {
     width: 100%;
-    overflow: hidden;
-    padding: 20px 0;
-    position: relative;
-    background: transparent;
-    /* Optional: Adds a fade effect at the edges */
-    -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
-    mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
-  }
-
-  /* The moving track */
-  .marquee-content {
-    display: flex;
-    gap: 20px;
-    width: max-content;
-    animation: scroll-left 30s linear infinite;
-  }
-
-  /* Style for each individual skill "pill" */
-  .skill-pill {
-    padding: 10px 20px;
-    background: #f0f0f0;
-    color: #333;
-    border: 1px solid #ddd;
-    border-radius: 50px;
-    font-weight: 600;
-    font-size: 0.9em;
+    overflow-x: auto; /* Required for dragging/scrolling */
     white-space: nowrap;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    cursor: grab; /* Shows the "hand" icon */
+    padding: 10px 0;
+    -webkit-mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent);
+    mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent);
+    scrollbar-width: none; /* Hides scrollbar in Firefox */
   }
 
-  /* Dark mode adjustment for Contrast skin */
+  /* Hides scrollbar in Chrome/Safari */
+  .marquee-container::-webkit-scrollbar {
+    display: none;
+  }
+
+  .marquee-container:active {
+    cursor: grabbing; /* Changes icon when clicking */
+  }
+
+  .marquee-content {
+    display: inline-flex;
+    gap: 15px;
+    /* We remove the infinite CSS animation so it doesn't fight with the user's mouse */
+  }
+
   .skill-pill {
-    background: #252a34;
+    padding: 8px 18px;
+    background: #252a34; /* Matches Contrast theme */
     color: #eee;
-    border-color: #454d5d;
-  }
-
-  /* Animation keyframes */
-  @keyframes scroll-left {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-50%); } /* Moves halfway through the double list */
-  }
-
-  /* Pause on hover so people can read */
-  .marquee-container:hover .marquee-content {
-    animation-play-state: paused;
+    border: 1px solid #454d5d;
+    border-radius: 4px;
+    font-weight: 500;
+    font-family: "Roboto Mono", monospace;
+    font-size: 0.85rem;
+    user-select: none; /* Prevents text highlighting while dragging */
   }
 </style>
+
+<script>
+  const sliders = document.querySelectorAll('.drag-scroll');
+  let isDown = false;
+  let startX;
+  let scrollLeft;
+
+  sliders.forEach(slider => {
+    slider.addEventListener('mousedown', (e) => {
+      isDown = true;
+      slider.classList.add('active');
+      startX = e.pageX - slider.offsetLeft;
+      scrollLeft = slider.scrollLeft;
+    });
+
+    slider.addEventListener('mouseleave', () => {
+      isDown = false;
+    });
+
+    slider.addEventListener('mouseup', () => {
+      isDown = false;
+    });
+
+    slider.addEventListener('mousemove', (e) => {
+      if (!isDown) return;
+      e.preventDefault();
+      const x = e.pageX - slider.offsetLeft;
+      const walk = (x - startX) * 2; // The "2" controls scroll speed
+      slider.scrollLeft = scrollLeft - walk;
+    });
+  });
+</script>

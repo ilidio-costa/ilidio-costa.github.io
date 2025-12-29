@@ -37,4 +37,4 @@ I used **SEM (Scanning Electron Microscopy)** to detect lack-of-fusion defects.
 ## 4. Conclusion
 The study defined a stable processing window for NiTi on the Prima Sharp 150 machine, allowing for the manufacturing of complex biomedical actuators.
 
-[< Back to Portfolio](/index.md)
+[< Back to Portfolio](/)

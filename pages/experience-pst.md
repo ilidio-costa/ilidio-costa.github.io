@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Propulsion Department Lead"
-permalink: /pages/experience-invictus/
+permalink: /pages/experience-pst/
 sidebar:
   nav: "docs"
 toc: true
@@ -25,4 +25,4 @@ Beyond management, I was responsible for the physics of the engine.
 * Successfully qualified the hybrid motor for the **European Rocketry Challenge (EuRoC)**.
 * [cite_start]Awarded "Best Poster" at the Space Education Summit for predictive modelling of hybrid engines[cite: 26].
 
-[< Back to Portfolio](/index.md)
+[< Back to Portfolio](/)
