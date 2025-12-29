@@ -7,7 +7,7 @@ experience_gallery:
   - image_path: /assets/images/pst-thumb.png
     title: "Propulsion Lead @ Porto Space Team"
     excerpt: "**(2024 - Present)**<br>Leading the INVICTUS II hybrid rocket engine development."
-    url: "/pages/experience-invictus/"
+    url: "/pages/experience-pst/"
     btn_label: "View Role"
     btn_class: "btn--inverse"
 

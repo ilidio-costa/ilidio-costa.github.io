@@ -10,9 +10,6 @@ mathjax: true
 
 **Project:** Master's Dissertation | **Tools:** Python, ImageJ, SEM, EBSD | **Material:** Nitinol (NiTi)
 
-> [!WARNING]
-> These work is results are protected, thus can not be shared
-
 ## 1. The Engineering Challenge
 Processing Nitinol (NiTi) via Laser Powder Bed Fusion (L-PBF) is challenging due to its sensitivity to thermal history. The goal was to minimize porosity while preserving the shape memory effect.
 

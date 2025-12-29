@@ -6,6 +6,12 @@ url: "https://ilidio-costa.github.io" # CHANGE THIS to your repo name
 remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: "contrast" # Options: "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
+# Add to the bottom of _config.yml
+mathjax: true
+kramdown:
+  math_engine: mathjax
+  input: GFM
+
 # This builds the Sidebar (Profile Pic + Links)
 author:
   name: "Ilídio Costa"
