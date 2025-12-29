@@ -283,19 +283,32 @@ Ready to build? [**Email Me**](mailto:ilidiomibritocosta@gmail.com).
     let isDown = false;
     let startX;
     let scrollLeft;
-    let scrollPos = 0;
     const speed = parseFloat(container.getAttribute('data-speed'));
     const content = container.querySelector('.marquee-content');
+    
+    // Calculate the halfway point (where the duplicate list starts)
+    const resetPoint = content.scrollWidth / 2;
+    
+    // FIX: Initialize position. If speed is negative, start at the reset point
+    // so it has room to scroll backwards immediately.
+    let scrollPos = speed < 0 ? resetPoint : 0;
+    container.scrollLeft = scrollPos;
 
     // 1. AUTO-SCROLL LOGIC
     function step() {
       if (!isDown) {
         scrollPos += speed;
-        // Reset position for infinite loop effect
-        const maxScroll = content.scrollWidth / 2;
-        if (Math.abs(scrollPos) >= maxScroll) {
+
+        // Reset for Right-to-Left (Positive speed)
+        if (speed > 0 && scrollPos >= resetPoint) {
           scrollPos = 0;
         }
+        
+        // Reset for Left-to-Right (Negative speed)
+        if (speed < 0 && scrollPos <= 0) {
+          scrollPos = resetPoint;
+        }
+
         container.scrollLeft = scrollPos;
       }
       requestAnimationFrame(step);
@@ -312,7 +325,8 @@ Ready to build? [**Email Me**](mailto:ilidiomibritocosta@gmail.com).
     container.addEventListener('mouseleave', () => isDown = false);
     container.addEventListener('mouseup', () => {
       isDown = false;
-      scrollPos = container.scrollLeft; // Sync auto-scroll with manual drag end
+      // Sync the auto-scroll position with where the user stopped dragging
+      scrollPos = container.scrollLeft; 
     });
 
     container.addEventListener('mousemove', (e) => {
