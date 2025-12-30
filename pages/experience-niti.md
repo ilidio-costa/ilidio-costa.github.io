@@ -2,8 +2,6 @@
 layout: single
 title: "Parameter Optimisation for Laser Powder Bed Fusion of NiTi"
 permalink: /pages/experience-niti/
-sidebar:
-  nav: "docs"
 toc: true
 toc_label: "Role Overview"
 mathjax: true
@@ -91,60 +89,17 @@ Achieving such high density through systematic methodologies like Taguchi orthog
 [< Back to Portfolio](/)
 
 <style>
-  /* 1. MAKE THE PAGE WIDER */
-  /* Forces the content container to use 95% of your screen width */
+  /* 1. WIDEN THE CONTAINER */
+  /* This overrides the theme's default width limit */
   .page__inner-wrap {
-    max-width: 95% !important;
+    max-width: 90% !important; /* Uses 90% of the screen width */
     width: 100% !important;
   }
   
-  /* 2. ADJUST COLUMNS TO FIT NEW WIDTH */
-  /* Give the main text 75% of the space, leaving 20% for the sidebar */
+  /* 2. ENSURE CONTENT EXPANDS */
+  /* Removes constraints on the text column */
   .page__content {
-    width: 75% !important;
-    float: left !important;
-    margin-right: 0 !important;
-  }
-
-  .sidebar {
-    width: 20% !important;
-    margin-left: 2% !important;
-  }
-
-  /* Mobile Safety: Stack them back up on phones so it doesn't break */
-  @media (max-width: 1024px) {
-    .page__content, .sidebar {
-      width: 100% !important;
-      float: none !important;
-      margin: 0 !important;
-    }
-  }
-
-  /* 3. JUSTIFY TEXT */
-  p {
-    text-align: justify;
-    text-justify: inter-word;
-  }
-
-  /* 4. FIX SIDEBAR LINKS */
-  .sidebar .nav__list a,
-  .sidebar .nav__title,
-  .toc__menu a,
-  .toc__menu li a {
-    white-space: normal !important;
-    overflow-wrap: break-word !important;
-    display: block !important;
-    color: #333 !important;
-    font-size: 0.85em !important;
-    line-height: 1.4 !important;
-    text-decoration: none !important;
-    padding: 3px 0 !important;
-  }
-
-  /* Hover Effect */
-  .sidebar .nav__list a:hover,
-  .toc__menu a:hover {
-    color: #d9230f !important;
-    text-decoration: underline !important;
+    width: 100% !important;
+    padding-right: 0 !important;
   }
 </style>
