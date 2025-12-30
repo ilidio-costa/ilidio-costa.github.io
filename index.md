@@ -72,7 +72,7 @@ projects_gallery:
         <h1 style="color: white; margin: 0; font-size: 3em; line-height: 1.1; text-transform: none;">Ilídio Costa</h1>
         <p style="font-size: 1.4em; color: #aabccd; margin: 10px 0 0 0; font-weight: 300;">Materials Engineer | Additive Manufacturing | Propulsion</p>
         <p style="font-size: 1.1em; color: #eee; margin-top: 20px; max-width: 600px;">
-            Exploring the bounds of <b>Additive Manufacturing<b>, <b>Metallurgy<b>, and <b>Aerospace<b> through passion and precision.</p>
+            Exploring the bounds of Additive Manufacturing, Metallurgy, and Aerospace through passion and precision.
         </p>
         <div style="margin-top: 25px; display: flex; gap: 15px; flex-wrap: wrap;">
             <a href="/assets/pdfs/CV_Ilidio_Costa.pdf" style="background: white; color: #1a1a1a; padding: 10px 20px; border-radius: 4px; text-decoration: none; font-weight: bold;">Download CV</a>
@@ -84,7 +84,7 @@ projects_gallery:
     </div>
 </div>
 
-# Skills
+## Skills
 
 
 <div class="marquee-container drag-scroll" data-speed="1">
@@ -186,12 +186,12 @@ projects_gallery:
 
 <br>
 
-# Experience
+## Experience
 {% include feature_row id="experience_gallery" type="center" %}
 
 <br>
 
-# 🎓 Education
+## 🎓 Education
 
 **MSc Materials Engineering** | *FEUP, Porto (2025)*
 * **Dissertation:** Parameter Optimization of Laser Powder Bed Fusion of NiTi.
@@ -205,7 +205,7 @@ projects_gallery:
 
 <br>
 
-# Technical Projects
+## Technical Projects
 
 {% include feature_row id="projects_gallery" type="center" %}
 
@@ -215,7 +215,7 @@ projects_gallery:
 
 ---
 
-# 📬 Contact
+## 📬 Contact
 Ready to build? Feel free to reach out through any of the channels below.
 
 <div style="margin-top: 30px; display: flex; gap: 15px; flex-wrap: wrap; justify-content: center; align-items: center; padding-bottom: 40px;">
