@@ -12,7 +12,7 @@ toc_label: "Role Overview"
 
 ![Logos](/assets/images/pst-advisor-thumb.png)
 
-[Porto Space Team]{https://www.portospaceteam.pt/en} is an association made up of university students, from FEUP (Faculty of Engineering of the University of Porto) and FCUP (Faculty of Sciences of the University of Porto) with the mission is to produce meaningful research, while teaching aspiring engineers to become even better professionals.
+[Porto Space Team](https://www.portospaceteam.pt/en) is an association made up of university students, from FEUP (Faculty of Engineering of the University of Porto) and FCUP (Faculty of Sciences of the University of Porto) with the mission is to produce meaningful research, while teaching aspiring engineers to become even better professionals.
 
 I was reposiblet to lead the development of the new hybrid rocket egine for project INVICTUS II
 
