@@ -19,7 +19,7 @@ mathjax: true
 
 ### Context
 
-Had the oppurtunity to conclude my Master’s in Material Engineering with a specialisation in Metallurgy with this work. It is a collaboration with FEUP (Faculdade de Engenharia da Universidade do Porto) and [CATEC]{https://www.catec.aero/} (Fundación Andaluza para el Desarrollo Aeroespacial), the largest Spanish technology centre focused on the aerospace and defence industry, supervised by Prof. Elsa W. Sequeiros and co-supervised by Pof. Jorgue Lino. Titled “Parameter Optimisation for Laser Powder Bed Fusion of NiTi”, it obtained a of 18 out of 20 final grade (which is the highest without any scientific publication as stated by internal faculty rules).
+Had the oppurtunity to conclude my Master’s in Material Engineering with a specialisation in Metallurgy with this work. It is a collaboration with FEUP (Faculdade de Engenharia da Universidade do Porto) and [CATEC](https://www.catec.aero/) (Fundación Andaluza para el Desarrollo Aeroespacial), the largest Spanish technology centre focused on the aerospace and defence industry, supervised by Prof. Elsa W. Sequeiros and co-supervised by Pof. Jorgue Lino. Titled “Parameter Optimisation for Laser Powder Bed Fusion of NiTi”, it obtained a of 18 out of 20 final grade (which is the highest without any scientific publication as stated by internal faculty rules).
 
 <div style="text-align: center; margin-bottom: 20px;">
   <img src="/assets/images/niti/presenting.jpg" alt="defending the dissertation" style="max-width: 100%; height: auto;">
