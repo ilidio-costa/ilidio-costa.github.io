@@ -14,7 +14,7 @@ experience_gallery:
   - image_path: /assets/images/pst-advisor-thumb.png
     title: "Propulsion Department Leader | Advisor"
     excerpt: "**(October 2024 - October 2025)**<br>Leading the INVICTUS II hybrid rocket engine development."
-    url: "/experience-pst-advisor/"
+    url: "/pages/experience-pst-advisor/"
     btn_label: "View Role"
     btn_class: "btn--inverse"
 
