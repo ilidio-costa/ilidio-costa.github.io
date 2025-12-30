@@ -91,34 +91,34 @@ Achieving such high density through systematic methodologies like Taguchi orthog
 [< Back to Portfolio](/)
 
 <style>
-/* 1. JUSTIFY MAIN TEXT */
-p {
-  text-align: justify;
-  text-justify: inter-word;
-}
+  /* 1. JUSTIFY THE MAIN TEXT */
+  p {
+    text-align: justify;
+    text-justify: inter-word;
+  }
 
-/* 2. FORCE TABLE OF CONTENTS WRAPPING */
-/* We use !important to override the theme's default blue link styles */
-.sidebar .toc__menu a, 
-.toc__menu li a {
-  white-space: normal !important;    /* Forces long text to wrap to the next line */
-  word-wrap: break-word !important;  /* Breaks very long words if needed */
-  display: block !important;         /* Fills the container width */
-  line-height: 1.4 !important;       /* Adds breathing room between lines */
-  font-size: 0.85em !important;      /* Slightly smaller font for the sidebar */
-  color: #333 !important;            /* Dark Grey (Professional) */
-  text-decoration: none !important;  /* Removes the blue underline */
-  border-bottom: 1px solid #eee;     /* Optional: Adds a faint separator line */
-  padding: 5px 0 !important;         /* Adds vertical spacing */
-}
+  /* 2. THE NUCLEAR FIX FOR SIDEBAR LINKS */
+  /* Targets every link inside the sidebar to force wrapping and color change */
+  .sidebar .nav__list a,
+  .sidebar .nav__title,
+  .toc__menu a,
+  .toc__menu li a {
+    white-space: normal !important;     /* Force text to wrap to the next line */
+    overflow-wrap: break-word !important; /* Break long words if necessary */
+    word-wrap: break-word !important;
+    display: block !important;          /* Make the link fill the width */
+    color: #333 !important;             /* Force color to Dark Grey (No Blue!) */
+    font-size: 0.8em !important;        /* slightly smaller text */
+    line-height: 1.4 !important;        /* breathing room between lines */
+    text-decoration: none !important;   /* Remove underline */
+    padding: 3px 0 !important;          /* Space between items */
+    border: none !important;
+  }
 
-/* HOVER EFFECT */
-.sidebar .toc__menu a:hover,
-.toc__menu li a:hover {
-  color: #d9230f !important;         /* Turns Red on hover */
-  text-decoration: none !important;
-  background-color: rgba(0,0,0,0.05); /* Adds a subtle grey background on hover */
-  padding-left: 5px !important;      /* Slight indent animation */
-  transition: all 0.2s ease;
-}
+  /* 3. HOVER EFFECT (Turns Red when you mouse over) */
+  .sidebar .nav__list a:hover,
+  .toc__menu a:hover {
+    color: #d9230f !important;
+    text-decoration: underline !important;
+  }
 </style>

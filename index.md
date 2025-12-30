@@ -220,13 +220,9 @@ Ready to build? Feel free to reach out through any of the channels below.
 
 <div style="margin-top: 30px; display: flex; gap: 15px; flex-wrap: wrap; justify-content: center; align-items: center; padding-bottom: 40px;">
     <a href="/assets/pdfs/CV_Ilidio_Costa.pdf" style="background: #1a1a1a; color: white; padding: 10px 20px; border-radius: 4px; text-decoration: none; font-weight: bold; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">Download CV</a>
-    
     <a href="mailto:ilidiomibritocosta@gmail.com" style="border: 2px solid #333; color: #333; padding: 8px 20px; border-radius: 4px; text-decoration: none; font-weight: bold;">Email Me</a>
-    
     <a href="https://linkedin.com/in/ilidio-costa/" style="border: 2px solid #0077b5; background: #0077b5; color: white; padding: 8px 20px; border-radius: 4px; text-decoration: none; font-weight: bold;">LinkedIn</a>
-    
     <a href="https://orcid.org/0009-0003-0793-4180" style="border: 2px solid #a6ce39; background: #a6ce39; color: white; padding: 8px 20px; border-radius: 4px; text-decoration: none; font-weight: bold;">ORCID</a>
-    
     <a href="https://www.researchgate.net/profile/Ilidio-De-Brito-Costa" style="border: 2px solid #00d0af; background: #00d0af; color: white; padding: 8px 20px; border-radius: 4px; text-decoration: none; font-weight: bold;">ResearchGate</a>
 </div>
 
