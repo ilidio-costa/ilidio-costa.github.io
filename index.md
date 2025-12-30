@@ -61,7 +61,6 @@ projects_gallery:
     flex-wrap: wrap;
     align-items: center;
     gap: 40px;">
-
     <img src="/assets/images/profile.png" alt="Profile" style="
         width: 250px;
         height: 250px;
@@ -69,15 +68,12 @@ projects_gallery:
         border: 4px solid white;
         object-fit: cover;
         box-shadow: 0 0 20px rgba(0,0,0,0.5);">
-
     <div style="flex: 1; min-width: 300px;">
         <h1 style="color: white; margin: 0; font-size: 3em; line-height: 1.1; text-transform: none;">Ilídio Costa</h1>
         <p style="font-size: 1.4em; color: #aabccd; margin: 10px 0 0 0; font-weight: 300;">Materials Engineer | Additive Manufacturing | Propulsion</p>
-        
         <p style="font-size: 1.1em; color: #eee; margin-top: 20px; max-width: 600px;">
-            Exploring the bounds of <b>Additive Manufacturing<b>, <b>Metallurgy<b>, and <b>Aerospace<b> through passion and precision.
+            Exploring the bounds of <b>Additive Manufacturing<b>, <b>Metallurgy<b>, and <b>Aerospace<b> through passion and precision.</p>
         </p>
-
         <div style="margin-top: 25px; display: flex; gap: 15px; flex-wrap: wrap;">
             <a href="/assets/pdfs/CV_Ilidio_Costa.pdf" style="background: white; color: #1a1a1a; padding: 10px 20px; border-radius: 4px; text-decoration: none; font-weight: bold;">Download CV</a>
             <a href="mailto:ilidiomibritocosta@gmail.com" style="border: 2px solid white; color: white; padding: 8px 20px; border-radius: 4px; text-decoration: none;">Email Me</a>
