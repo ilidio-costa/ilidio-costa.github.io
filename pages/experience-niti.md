@@ -91,31 +91,57 @@ Achieving such high density through systematic methodologies like Taguchi orthog
 [< Back to Portfolio](/)
 
 <style>
-  /* 1. JUSTIFY THE MAIN TEXT */
+  /* 1. MAKE THE PAGE WIDER (The fix you asked for) */
+  /* Forces the content container to use 95% of your screen width */
+  .page__inner-wrap {
+    max-width: 95% !important;
+    width: 100% !important;
+  }
+  
+  /* 2. ADJUST COLUMNS TO FIT NEW WIDTH */
+  /* Give the main text 75% of the space, leaving 20% for the sidebar */
+  .page__content {
+    width: 75% !important;
+    float: left !important;
+    margin-right: 0 !important;
+  }
+
+  .sidebar {
+    width: 20% !important;
+    margin-left: 2% !important;
+  }
+
+  /* Mobile Safety: Stack them back up on phones so it doesn't break */
+  @media (max-width: 1024px) {
+    .page__content, .sidebar {
+      width: 100% !important;
+      float: none !important;
+      margin: 0 !important;
+    }
+  }
+
+  /* 3. JUSTIFY TEXT */
   p {
     text-align: justify;
     text-justify: inter-word;
   }
 
-  /* 2. THE NUCLEAR FIX FOR SIDEBAR LINKS */
-  /* Targets every link inside the sidebar to force wrapping and color change */
+  /* 4. FIX SIDEBAR LINKS (The Nuclear Fix) */
   .sidebar .nav__list a,
   .sidebar .nav__title,
   .toc__menu a,
   .toc__menu li a {
-    white-space: normal !important;     /* Force text to wrap to the next line */
-    overflow-wrap: break-word !important; /* Break long words if necessary */
-    word-wrap: break-word !important;
-    display: block !important;          /* Make the link fill the width */
-    color: #333 !important;             /* Force color to Dark Grey (No Blue!) */
-    font-size: 0.8em !important;        /* slightly smaller text */
-    line-height: 1.4 !important;        /* breathing room between lines */
-    text-decoration: none !important;   /* Remove underline */
-    padding: 3px 0 !important;          /* Space between items */
-    border: none !important;
+    white-space: normal !important;
+    overflow-wrap: break-word !important;
+    display: block !important;
+    color: #333 !important;
+    font-size: 0.85em !important;
+    line-height: 1.4 !important;
+    text-decoration: none !important;
+    padding: 3px 0 !important;
   }
 
-  /* 3. HOVER EFFECT (Turns Red when you mouse over) */
+  /* Hover Effect */
   .sidebar .nav__list a:hover,
   .toc__menu a:hover {
     color: #d9230f !important;
