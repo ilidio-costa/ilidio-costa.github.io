@@ -91,7 +91,7 @@ Achieving such high density through systematic methodologies like Taguchi orthog
 [< Back to Portfolio](/)
 
 <style>
-  /* 1. MAKE THE PAGE WIDER (The fix you asked for) */
+  /* 1. MAKE THE PAGE WIDER */
   /* Forces the content container to use 95% of your screen width */
   .page__inner-wrap {
     max-width: 95% !important;
@@ -126,7 +126,7 @@ Achieving such high density through systematic methodologies like Taguchi orthog
     text-justify: inter-word;
   }
 
-  /* 4. FIX SIDEBAR LINKS (The Nuclear Fix) */
+  /* 4. FIX SIDEBAR LINKS */
   .sidebar .nav__list a,
   .sidebar .nav__title,
   .toc__menu a,
