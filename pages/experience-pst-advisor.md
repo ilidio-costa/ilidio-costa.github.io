@@ -28,3 +28,11 @@ Beyond management, I was responsible for the physics of the engine.
 * Awarded "Best Poster" at the Space Education Summit for predictive modelling of hybrid engines.
 
 [< Back to Portfolio](/)
+
+<style>
+/* JUSTIFY TEXT */
+p {
+  text-align: justify;
+  text-justify: inter-word; /* Improves spacing for readability */
+}
+</style>

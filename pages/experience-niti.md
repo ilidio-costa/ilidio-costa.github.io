@@ -39,7 +39,7 @@ Manufacturing of NiTi components by L-PBF poses challenges, as expressed by some
 
 - Microstructural & Phase Control: The highly dynamic and non-equilibrium thermal conditions of L-PBF result in complex microstructures. Therefore, achieving the desired austenitic or martensitic phase composition in the as-built state is challenging.
 
-## 2. Technical Experties utilized
+## 2. Technical Experties Utilized
 
 #### Powder Feedstock Characterization
 
@@ -63,7 +63,7 @@ The manufacturing phase focused on the optimization of Laser Powder Bed Fusion (
 
 - Chemical Stability: Monitored elemental composition changes across varying part geometries using X-ray Fluorescence (XRF) and EDS.
 
-#### Microstructure and Phase Analysis
+#### Microstructure & Phase Analysis
 
 Advanced characterization was performed to understand the material's structural evolution:
 
@@ -89,3 +89,29 @@ Achieving such high density through systematic methodologies like Taguchi orthog
 
 
 [< Back to Portfolio](/)
+
+<style>
+/* 1. JUSTIFY PARAGRAPH TEXT */
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* 2. FIX TABLE OF CONTENTS (SIDEBAR) */
+/* This fixes the "squashed" text in the red box */
+.sidebar .nav__list a, .toc__menu a {
+  white-space: normal !important;   /* Allows text to wrap naturally */
+  display: block;                   /* Fills the width of the box */
+  padding: 4px 0;                   /* Adds space between items */
+  font-size: 0.85em;                /* Slightly smaller font fits better */
+  line-height: 1.4;                 /* Better spacing between lines */
+  color: #444;                      /* Dark Grey instead of Bright Blue */
+  text-decoration: none;            /* Removes underline */
+}
+
+/* Hover Effect for Sidebar Links */
+.sidebar .nav__list a:hover, .toc__menu a:hover {
+  color: #d9230f; /* Highlights red on hover */
+  text-decoration: underline;
+}
+</style>

@@ -15,3 +15,12 @@ toc_label: "Role Overview"
 
 
 [< Back to Portfolio](/)
+
+
+<style>
+/* JUSTIFY TEXT */
+p {
+  text-align: justify;
+  text-justify: inter-word; /* Improves spacing for readability */
+}
+</style>
