@@ -21,7 +21,9 @@ mathjax: true
 
 Had the oppurtunity to conclude my Master’s in Material Engineering with a specialisation in Metallurgy with this work. It is a collaboration with FEUP (Faculdade de Engenharia da Universidade do Porto) and [CATEC]{https://www.catec.aero/} (Fundación Andaluza para el Desarrollo Aeroespacial), the largest Spanish technology centre focused on the aerospace and defence industry, supervised by Prof. Elsa W. Sequeiros and co-supervised by Pof. Jorgue Lino. Titled “Parameter Optimisation for Laser Powder Bed Fusion of NiTi”, it obtained a of 18 out of 20 final grade (which is the highest without any scientific publication as stated by internal faculty rules).
 
-![defending the dissertation](/assets/images/niti/presenting.jpg){: .align-center}
+<div style="text-align: center; margin-bottom: 20px;">
+  <img src="/assets/images/niti/presenting.jpg" alt="defending the dissertation" style="max-width: 100%; height: auto;">
+</div>
 
 The transformative potential of additively manufactured Nickel-Titanium (NiTi) is driving innovation across the aerospace and biomedical sectors. In biomedical engineering, Laser Powder Bed Fusion (L-PBF) enables the creation of patient-specific orthopedic implants with porous structures that mimic bone stiffness, alongside superelastic stents and heart valves for minimally invasive procedures. Simultaneously, the aerospace industry leverages NiTi’s high power-to-weight ratio for lightweight actuators used in morphing aircraft wings, satellite deployment mechanisms, and shock-absorption systems. With significant backing from organizations like the European Space Agency, research continues to expand into smart superelastic joints, damping components and elastocaloric cooling systems, highlighting NiTi as a critical material for the next generation of intelligent, high-performance engineering solutions.
 
