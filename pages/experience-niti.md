@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: splash
 title: "Parameter Optimisation for Laser Powder Bed Fusion of NiTi"
 permalink: /pages/experience-niti/
 toc: true
@@ -102,8 +102,8 @@ Achieving such high density through systematic methodologies like Taguchi orthog
   /* 2. WIDEN THE PARENT CONTAINER */
   /* This controls the overall max width of the page body */
   .page__inner-wrap {
-    width: 200% !important; /* Uses 95% of your screen */
-    max-width: 200% !important;
+    width: 95% !important; /* Uses 95% of your screen */
+    max-width: 95% !important;
     margin-left: auto;
     margin-right: auto;
   }
