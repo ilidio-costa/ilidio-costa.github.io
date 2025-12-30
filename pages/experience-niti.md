@@ -17,7 +17,7 @@ mathjax: true
 **Restricted Access:** This work contains protected results and thus cannot be fully shared.
 
 
-## 1. Introdution
+## 1. Introduction
 
 #### Context
 
@@ -91,27 +91,34 @@ Achieving such high density through systematic methodologies like Taguchi orthog
 [< Back to Portfolio](/)
 
 <style>
-/* 1. JUSTIFY PARAGRAPH TEXT */
+/* 1. JUSTIFY MAIN TEXT */
 p {
   text-align: justify;
   text-justify: inter-word;
 }
 
-/* 2. FIX TABLE OF CONTENTS (SIDEBAR) */
-/* This fixes the "squashed" text in the red box */
-.sidebar .nav__list a, .toc__menu a {
-  white-space: normal !important;   /* Allows text to wrap naturally */
-  display: block;                   /* Fills the width of the box */
-  padding: 4px 0;                   /* Adds space between items */
-  font-size: 0.85em;                /* Slightly smaller font fits better */
-  line-height: 1.4;                 /* Better spacing between lines */
-  color: #444;                      /* Dark Grey instead of Bright Blue */
-  text-decoration: none;            /* Removes underline */
+/* 2. FORCE TABLE OF CONTENTS WRAPPING */
+/* We use !important to override the theme's default blue link styles */
+.sidebar .toc__menu a, 
+.toc__menu li a {
+  white-space: normal !important;    /* Forces long text to wrap to the next line */
+  word-wrap: break-word !important;  /* Breaks very long words if needed */
+  display: block !important;         /* Fills the container width */
+  line-height: 1.4 !important;       /* Adds breathing room between lines */
+  font-size: 0.85em !important;      /* Slightly smaller font for the sidebar */
+  color: #333 !important;            /* Dark Grey (Professional) */
+  text-decoration: none !important;  /* Removes the blue underline */
+  border-bottom: 1px solid #eee;     /* Optional: Adds a faint separator line */
+  padding: 5px 0 !important;         /* Adds vertical spacing */
 }
 
-/* Hover Effect for Sidebar Links */
-.sidebar .nav__list a:hover, .toc__menu a:hover {
-  color: #d9230f; /* Highlights red on hover */
-  text-decoration: underline;
+/* HOVER EFFECT */
+.sidebar .toc__menu a:hover,
+.toc__menu li a:hover {
+  color: #d9230f !important;         /* Turns Red on hover */
+  text-decoration: none !important;
+  background-color: rgba(0,0,0,0.05); /* Adds a subtle grey background on hover */
+  padding-left: 5px !important;      /* Slight indent animation */
+  transition: all 0.2s ease;
 }
 </style>
