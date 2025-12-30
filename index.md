@@ -4,20 +4,40 @@ title: "Home"
 author_profile: false
 
 experience_gallery:
-  - image_path: /assets/images/pst-thumb.png
-    title: "Propulsion Lead @ Porto Space Team"
-    excerpt: "**(2024 - Present)**<br>Leading the INVICTUS II hybrid rocket engine development."
-    url: "/pages/experience-pst/"
-    btn_label: "View Role"
-    btn_class: "btn--inverse"
-
   - image_path: /assets/images/niti-thumb.jpg
-    title: "NiTi L-PBF Optimization"
-    excerpt: "**Master's Thesis**<br>Minimizing porosity to <0.07% in Shape Memory Alloys."
-    url: "/pages/project-niti/"
+    title: "Research AM Engineer"
+    excerpt: "**February 2025 - October 2025**<br> Master's Thesis: Parameter Optimisation for Laser Powder Bed Fusion of NiTi"
+    url: "/pages/experience-niti/"
+    btn_label: "View Role"
+    btn_class: "btn--inverse"  
+  
+  - image_path: /assets/images/pst-advisor-thumb.png
+    title: "Propulsion Department Leader | Advisor"
+    excerpt: "**(October 2024 - October 2025)**<br>Leading the INVICTUS II hybrid rocket engine development."
+    url: "/experience-pst-advisor/"
     btn_label: "View Role"
     btn_class: "btn--inverse"
 
+  - image_path: /assets/images/pst-chem-thumb.png
+    title: "Chemical Department Member"
+    excerpt: "**(October 2023 - October 2024)**<br>Help INVICTUS hybrid rocket fuel."
+    url: "/pages/experience-pst-chem/"
+    btn_label: "View Role"
+    btn_class: "btn--inverse"
+
+  - image_path: /assets/images/mater-thumb.png
+    title: "Student Researcher"
+    excerpt: "**(August 2023 - August 2024)**<br>Description."
+    url: "/pages/experience-mater/"
+    btn_label: "View Role"
+    btn_class: "btn--inverse"
+
+  - image_path: /assets/images/addcreative-thumb.png
+    title: "Material Engineer Intern"
+    excerpt: "**(February 2023 - October 2023)**<br>Help INVICTUS hybrid rocket fuel."
+    url: "/pages/experience-addcreative/"
+    btn_label: "View Role"
+    btn_class: "btn--inverse"
     
 projects_gallery:
   - image_path: /assets/images/fem-thumb.jpg
@@ -55,7 +75,7 @@ projects_gallery:
         <p style="font-size: 1.4em; color: #aabccd; margin: 10px 0 0 0; font-weight: 300;">Materials Engineer | Additive Manufacturing | Propulsion</p>
         
         <p style="font-size: 1.1em; color: #eee; margin-top: 20px; max-width: 600px;">
-            Bridging the gap between metallurgy and aerospace systems. Currently optimizing <b>NiTi L-PBF parameters</b> and leading propulsion at <b>Porto Space Team</b>.
+            Exploring the bounds of <b>Additive Manufacturing<b>, <b>Metallurgy<b>, and <b>Aerospace<b> through passion and precision.
         </p>
 
         <div style="margin-top: 25px; display: flex; gap: 15px; flex-wrap: wrap;">
@@ -68,7 +88,7 @@ projects_gallery:
     </div>
 </div>
 
-## Skills
+# Skills
 
 
 <div class="marquee-container drag-scroll" data-speed="1">
@@ -170,12 +190,12 @@ projects_gallery:
 
 <br>
 
-## Experience
+# Experience
 {% include feature_row id="experience_gallery" type="center" %}
 
 <br>
 
-## 🎓 Education
+# 🎓 Education
 
 **MSc Materials Engineering** | *FEUP, Porto (2025)*
 * **Dissertation:** Parameter Optimization of Laser Powder Bed Fusion of NiTi.
@@ -189,7 +209,7 @@ projects_gallery:
 
 <br>
 
-## Technical Projects
+# Technical Projects
 
 {% include feature_row id="projects_gallery" type="center" %}
 
@@ -199,7 +219,7 @@ projects_gallery:
 
 ---
 
-## 📬 Contact
+# 📬 Contact
 Ready to build? Feel free to reach out through any of the channels below.
 
 <div style="margin-top: 30px; display: flex; gap: 15px; flex-wrap: wrap; justify-content: center; align-items: center; padding-bottom: 40px;">

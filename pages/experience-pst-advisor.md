@@ -1,14 +1,16 @@
 ---
 layout: single
-title: "Propulsion Department Lead"
-permalink: /pages/experience-pst/
+title: "Advisor & Propulsion Department Leader"
+permalink: /pages/experience-pst-advisor/
 sidebar:
   nav: "docs"
 toc: true
 toc_label: "Role Overview"
 ---
 
-**Organization:** Porto Space Team | **Role:** Advisor | **Timeline:** February 2025 - October 2025
+**Organization:** Porto Space Team | **Role:** Advisor & Propulsion Department Leader | **Timeline:** October 2024 - October 2025
+
+![Logos](/assets/images/pst-advisor-thumb.png)
 
 ## 1. Leadership & Management
 As the Lead of the Propulsion Department for the **INVICTUS II** project (a hybrid rocket engine), I managed a multidisciplinary team of engineers.
