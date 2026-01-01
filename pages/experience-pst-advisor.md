@@ -36,7 +36,8 @@ ___
 
 
 <video width="95%" controls>
-  <source src="/assets/images/adsivor/static_test" type="video/mp4">
+  <source src="/assets/images/advisor/static_test.mp4" type="video/mp4">
+  Your browser does not support the video tag.
 </video>
 
 
