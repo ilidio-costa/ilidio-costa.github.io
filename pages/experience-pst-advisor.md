@@ -13,7 +13,7 @@ toc_label: "Role Overview"
 ---
 
 <div style="text-align: left">
-  <img src="/assets/images/pst-chem-thumb.png" height = "80">
+  <img src="/assets/images/pst-chem-thumb.png" height = "50"/>
 </div>
 
 
@@ -32,7 +32,7 @@ Collaborative Engineering: Worked closely with the propulsion team to ensure the
 ---
 
 <div style="text-align: left">
-  <img src="/assets/images/pst-advisor-thumb.png" height = "80">
+  <img src="/assets/images/pst-advisor-thumb.png" height = "50"/>
 </div>
 
 **Organization:** Porto Space Team | **Role:** Propulsion Department Leader | **Timeline:** October 2024 - October 2025
@@ -69,7 +69,7 @@ Following my time in the Chemical department, I stepped into a leadership role i
 ---
 
 <div style="text-align: left">
-  <img src="/assets/images/pst-advisor-thumb.png" height = "80">
+  <img src="/assets/images/pst-advisor-thumb.png" height = "50"/>
 </div>
 
 **Organization:** Porto Space Team | **Role:** Propulsion Department Leader | **Timeline:** October 2024 - October 2025
