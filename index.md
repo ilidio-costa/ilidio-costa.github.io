@@ -11,17 +11,10 @@ experience_gallery:
     btn_label: "View Role"
     btn_class: "btn--inverse"  
   
-  - image_path: /assets/images/pst-advisor-thumb.png
-    title: "Propulsion Department Leader | Advisor"
-    excerpt: "**(October 2024 - October 2025)**<br>Leading the INVICTUS II hybrid rocket engine development."
+  - image_path: /assets/images/pst-thumb.png
+    title: "Engineering Journey & Leadership Progression"
+    excerpt: "**(October 2023 - October 2025)**<br>Aerospace Engineering: From Chemical Research to Hybrid Propulsion Leadership."
     url: "/pages/experience-pst-advisor/"
-    btn_label: "View Role"
-    btn_class: "btn--inverse"
-
-  - image_path: /assets/images/pst-chem-thumb.png
-    title: "Chemical Department Member"
-    excerpt: "**(October 2023 - October 2024)**<br>Help INVICTUS hybrid rocket fuel."
-    url: "/pages/experience-pst-chem/"
     btn_label: "View Role"
     btn_class: "btn--inverse"
 
@@ -46,6 +39,13 @@ projects_gallery:
     url: "/pages/project-niti/"
     btn_label: "View Case Study"
     btn_class: "btn--primary"
+
+publications_gallery:
+  - title: "Parameter Optimisation for LPBF of NiTi"
+    excerpt: "Published in *Journal of Materials* (2025).<br>We explored the energy density limits..."
+    url: "https://doi.org/your-paper-link"
+    btn_label: "Read Paper"
+    btn_class: "btn--inverse"
 ---
 
 <div style="
@@ -78,6 +78,7 @@ projects_gallery:
             <a href="/assets/pdfs/CV_Ilidio_Costa.pdf" style="background: white; color: #1a1a1a; padding: 10px 20px; border-radius: 4px; text-decoration: none; font-weight: bold;">Download CV</a>
             <a href="mailto:ilidiomibritocosta@gmail.com" style="border: 2px solid white; color: white; padding: 8px 20px; border-radius: 4px; text-decoration: none;">Email Me</a>
             <a href="https://linkedin.com/in/ilidio-costa/" style="border: 2px solid #0077b5; background: #0077b5; color: white; padding: 8px 20px; border-radius: 4px; text-decoration: none;">LinkedIn</a>
+            <a href="https://github.com/ilidio-costa" style="border: 2px solid #501DAF; background: #501DAF; color: white; padding: 8px 20px; border-radius: 4px; text-decoration: none;">Github</a>
             <a href="https://orcid.org/0009-0003-0793-4180" style="border: 2px solid #a6ce39; background: #a6ce39; color: white; padding: 8px 20px; border-radius: 4px; text-decoration: none;">ORCID</a>
             <a href="https://www.researchgate.net/profile/Ilidio-De-Brito-Costa" style="border: 2px solid #00d0af; background: #00d0af; color: white; padding: 8px 20px; border-radius: 4px; text-decoration: none;">ResearchGate</a>
         </div>
@@ -213,6 +214,11 @@ projects_gallery:
 // This is a trick to render the feature rows without complex YAML
 </script>
 
+
+## 📝 Publications
+
+{% include feature_row id="publications_gallery" type="center" %}
+
 ---
 
 ## 📬 Contact
@@ -222,6 +228,7 @@ Ready to build? Feel free to reach out through any of the channels below.
     <a href="/assets/pdfs/CV_Ilidio_Costa.pdf" style="background: #1a1a1a; color: white; padding: 10px 20px; border-radius: 4px; text-decoration: none; font-weight: bold; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">Download CV</a>
     <a href="mailto:ilidiomibritocosta@gmail.com" style="border: 2px solid #333; color: #333; padding: 8px 20px; border-radius: 4px; text-decoration: none; font-weight: bold;">Email Me</a>
     <a href="https://linkedin.com/in/ilidio-costa/" style="border: 2px solid #0077b5; background: #0077b5; color: white; padding: 8px 20px; border-radius: 4px; text-decoration: none; font-weight: bold;">LinkedIn</a>
+    <a href="https://github.com/ilidio-costa" style="border: 2px solid #501DAF; background: #501DAF; color: white; padding: 8px 20px; border-radius: 4px; text-decoration: none;">Github</a>
     <a href="https://orcid.org/0009-0003-0793-4180" style="border: 2px solid #a6ce39; background: #a6ce39; color: white; padding: 8px 20px; border-radius: 4px; text-decoration: none; font-weight: bold;">ORCID</a>
     <a href="https://www.researchgate.net/profile/Ilidio-De-Brito-Costa" style="border: 2px solid #00d0af; background: #00d0af; color: white; padding: 8px 20px; border-radius: 4px; text-decoration: none; font-weight: bold;">ResearchGate</a>
 </div>

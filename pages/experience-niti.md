@@ -7,9 +7,12 @@ toc_label: "Role Overview"
 mathjax: true
 ---
 
+![Logos](/assets/images/niti-thumb.jpg)
+
 **Organization:** FEUP & CATEC | **Role:** Research AM Engineer | **Timeline:** February 2025 - October 2025
 
-![Logos](/assets/images/niti-thumb.jpg)
+---
+
 
 {: .notice--danger}
 **Restricted Access:** This work contains protected results and thus cannot be fully shared.

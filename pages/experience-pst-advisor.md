@@ -8,26 +8,62 @@ toc: true
 toc_label: "Role Overview"
 ---
 
-**Organization:** Porto Space Team | **Role:** Propulsion Department Leader | **Timeline:** October 2024 - October 2025
+[Porto Space Team](https://www.portospaceteam.pt/en) is an association made up of university students, from mainly from FEUP (Faculty of Engineering of the University of Porto) and FCUP (Faculty of Sciences of the University of Porto) with the mission is to produce meaningful research, while teaching aspiring engineers to become even better professionals.
+
+---
+
+![Logos](/assets/images/pst-chem-thumb.png)
+
+**Organization:** Porto Space Team | **Role:** Chemical Department Member | **Timeline:** October 2023 - October 2024
+
+## Technical Contributions & Research
+
+Fuel Development: Assisted in the formulation and testing of the hybrid rocket fuel for the INVICTUS project.
+
+Material Selection: Conducted research on paraffin-based grains and additives to optimize the regression rate and combustion efficiency of the motor.
+
+Laboratory Testing: Participated in small-scale burn tests to validate fuel characteristics and ensure consistency with theoretical performance models.
+
+Collaborative Engineering: Worked closely with the propulsion team to ensure the chemical properties of the fuel were compatible with the mechanical design of the combustion chamber.
+
+---
 
 ![Logos](/assets/images/pst-advisor-thumb.png)
 
-[Porto Space Team](https://www.portospaceteam.pt/en) is an association made up of university students, from FEUP (Faculty of Engineering of the University of Porto) and FCUP (Faculty of Sciences of the University of Porto) with the mission is to produce meaningful research, while teaching aspiring engineers to become even better professionals.
+**Organization:** Porto Space Team | **Role:** Propulsion Department Leader | **Timeline:** October 2024 - October 2025
 
-I was reposible to lead the development of the new hybrid rocket egine for project INVICTUS II, a hybrid chemical propulsion rocket with a target 3 km apogee which contited at [Euroc25](https://euroc.pt/).
+Following my time in the Chemical department, I stepped into a leadership role in the new Propulsion department, the fusion of the previeous Propulsion and Chemical Departments, to oversee the development of the hybrid propulsion motor for INVICTUS II, hybrid chemical propulsion rocket with a target 3 km apogee which contited at [Euroc25](https://euroc.pt/).
 
 <div style="text-align: center; margin-bottom: 20px;">
   <img src="/assets/images/invictusii_thumb.png" alt="defending the dissertation" style="max-width: 50%; height: auto;">
 </div>
 
-## Strategic Management & Team Building
+## Experience
 
-<b>Recruitment and Development</b>: Led the comprehensive recruitment process for new department members, developing structured case studies and conducting interviews to assess technical aptitude and cultural fit. This ensured the continuity and expansion of critical engineering expertise.
+### Strategic Management & Team Building:
 
-<b>Annual Budgeting</b>: Created and managed the department's annual budget, aligning financial resources with the competition cycle (October to October). Conducted detailed market analysis to secure sponsorships and optimize spending for hybrid propulsion development.
+- <b>Multidisciplinary Team Management</b>: Coordinated a diverse team of engineers to design and manufacture the hybrid propulsion system.
+
+- <b>Internal Workflow</b>: Facilitated weekly department meetings and hands-on work sessions to solve immediate engineering challenges and maintain project momentum.
+
+- <b>Inter-Departmental Liaison</b>: Acted as the primary representative for the Propulsion department in weekly synchronization meetings with the Chief Engineer and other Department Leaders to ensure cross-system compatibility.
+
+- <b>Recruitment and Development</b>: Led the comprehensive recruitment process for new department members, developing structured case studies and conducting interviews to assess technical aptitude and cultural fit. This ensured the continuity and expansion of critical engineering expertise.
+
+- <b>Annual Budgeting</b>: Created and managed the department's annual budget, aligning financial resources with the competition cycle (October to October). Conducted detailed market analysis to secure sponsorships and optimize spending for hybrid propulsion development.
+
+### Technical Documentation & Analytical Modeling
+
+- <b>Data-Driven Optimization</b>: Developed custom analytical models in Python (utilizing Pandas, Matplotlib, and Coolprop) to evaluate data from Hot Fire and Cold Flow tests.
+
+- <b>Engineering Standards</b>: Authored comprehensive technical reports, literature reviews, and safety protocols to standardize manufacturing and testing procedures.
+
+- <b>Knowledge Implementation</b>: Translated complex concepts from fluid dynamics and combustion into actionable workshop materials for team members
+
+##
 
 
-___
+---
 
 **Organization:** Porto Space Team | **Role:** Propulsion Department Leader | **Timeline:** October 2024 - October 2025
 

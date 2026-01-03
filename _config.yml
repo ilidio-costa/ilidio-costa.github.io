@@ -1,7 +1,7 @@
-title: "Ilídio Costa"
-name: "Ilídio Costa"
-description: "Materials Engineer & Spacecraft Propulsion"
-url: "https://ilidio-costa.github.io" # CHANGE THIS to your repo name
+#title: "Ilídio Costa"
+#name: "Ilídio Costa"
+#description: "Materials Engineer & Spacecraft Propulsion"
+#url: "https://ilidio-costa.github.io" # CHANGE THIS to your repo name
 
 remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: "contrast" # Options: "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
