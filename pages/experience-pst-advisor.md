@@ -12,7 +12,10 @@ toc_label: "Role Overview"
 
 ---
 
-![Logos](/assets/images/pst-chem-thumb.png)
+<div style="text-align: left">
+  <img src="/assets/images/pst-chem-thumb.png" height = "80">
+</div>
+
 
 **Organization:** Porto Space Team | **Role:** Chemical Department Member | **Timeline:** October 2023 - October 2024
 
@@ -28,7 +31,9 @@ Collaborative Engineering: Worked closely with the propulsion team to ensure the
 
 ---
 
-![Logos](/assets/images/pst-advisor-thumb.png)
+<div style="text-align: left">
+  <img src="/assets/images/pst-advisor-thumb.png" height = "80">
+</div>
 
 **Organization:** Porto Space Team | **Role:** Propulsion Department Leader | **Timeline:** October 2024 - October 2025
 
@@ -60,14 +65,14 @@ Following my time in the Chemical department, I stepped into a leadership role i
 
 - <b>Knowledge Implementation</b>: Translated complex concepts from fluid dynamics and combustion into actionable workshop materials for team members
 
-##
-
 
 ---
 
-**Organization:** Porto Space Team | **Role:** Propulsion Department Leader | **Timeline:** October 2024 - October 2025
+<div style="text-align: left">
+  <img src="/assets/images/pst-advisor-thumb.png" height = "80">
+</div>
 
-![Logos](/assets/images/pst-advisor-thumb.png)
+**Organization:** Porto Space Team | **Role:** Propulsion Department Leader | **Timeline:** October 2024 - October 2025
 
 
 
