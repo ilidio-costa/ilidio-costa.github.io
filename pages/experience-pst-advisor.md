@@ -13,7 +13,7 @@ toc_label: "Role Overview"
 ---
 
 <div style="text-align: left">
-  <img src="/assets/images/pst-chem-thumb.png" height = "50"/>
+  <img src="/assets/images/pst-chem-thumb.png" style="max-height: 5%; width: auto;">
 </div>
 
 
@@ -32,7 +32,7 @@ Collaborative Engineering: Worked closely with the propulsion team to ensure the
 ---
 
 <div style="text-align: left">
-  <img src="/assets/images/pst-advisor-thumb.png" height = "50"/>
+  <img src="/assets/images/pst-advisor-thumb.png" style="max-height: 5%; width: auto;">
 </div>
 
 **Organization:** Porto Space Team | **Role:** Propulsion Department Leader | **Timeline:** October 2024 - October 2025
@@ -40,7 +40,7 @@ Collaborative Engineering: Worked closely with the propulsion team to ensure the
 Following my time in the Chemical department, I stepped into a leadership role in the new Propulsion department, the fusion of the previeous Propulsion and Chemical Departments, to oversee the development of the hybrid propulsion motor for INVICTUS II, hybrid chemical propulsion rocket with a target 3 km apogee which contited at [Euroc25](https://euroc.pt/).
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="/assets/images/invictusii_thumb.png" alt="defending the dissertation" style="max-width: 50%; height: auto;">
+  <img src="/assets/images/invictusii_thumb.png" alt="defending the dissertation" style="max-width: 25%; height: auto;">
 </div>
 
 ## Experience
