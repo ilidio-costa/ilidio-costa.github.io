@@ -13,7 +13,7 @@ toc_label: "Role Overview"
 ---
 
 <div style="text-align: left">
-  <img src="/assets/images/pst-chem-thumb.png" style="max-height: 5%; width: auto;">
+  <img src="/assets/images/pst-chem-thumb.png" style="height: 50px; width: auto;">
 </div>
 
 
@@ -32,7 +32,7 @@ Collaborative Engineering: Worked closely with the propulsion team to ensure the
 ---
 
 <div style="text-align: left">
-  <img src="/assets/images/pst-advisor-thumb.png" style="max-height: 5%; width: auto;">
+  <img src="/assets/images/pst-advisor-thumb.png" style="height: 50px; width: auto;">
 </div>
 
 **Organization:** Porto Space Team | **Role:** Propulsion Department Leader | **Timeline:** October 2024 - October 2025
