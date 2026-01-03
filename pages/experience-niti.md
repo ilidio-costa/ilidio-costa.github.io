@@ -8,7 +8,7 @@ mathjax: true
 ---
 
 <div style="text-align: left">
-  <img src="/assets/images/niti-thumb.jpg" style="height: 120px; width: auto;">
+  <img src="/assets/images/niti-thumb.jpg" height = "80">
 </div>
 
 **Organization:** FEUP & CATEC | **Role:** Research AM Engineer | **Timeline:** February 2025 - October 2025
