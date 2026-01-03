@@ -8,10 +8,6 @@ toc: true
 toc_label: "Role Overview"
 ---
 
-[Porto Space Team](https://www.portospaceteam.pt/en) is an association made up of university students, from mainly from FEUP (Faculty of Engineering of the University of Porto) and FCUP (Faculty of Sciences of the University of Porto) with the mission is to produce meaningful research, while teaching aspiring engineers to become even better professionals.
-
----
-
 <div style="text-align: left">
   <img src="/assets/images/pst-chem-thumb.png" style="height: 120px; width: auto;">
 </div>
@@ -19,7 +15,13 @@ toc_label: "Role Overview"
 
 **Organization:** Porto Space Team | **Role:** Chemical Department Member | **Timeline:** October 2023 - October 2024
 
-## Technical Contributions & Research
+## 1. Introduction
+
+### Context
+
+[Porto Space Team](https://www.portospaceteam.pt/en) is an association made up of university students, from mainly from FEUP (Faculty of Engineering of the University of Porto) and FCUP (Faculty of Sciences of the University of Porto) with the mission is to produce meaningful research, while teaching aspiring engineers to become even better professionals.
+
+## 2. Technical Contributions & Research
 
 Fuel Development: Assisted in the formulation and testing of the hybrid rocket fuel for the INVICTUS project.
 

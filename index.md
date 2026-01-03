@@ -76,11 +76,11 @@ publications_gallery:
         </p>
         <div style="margin-top: 25px; display: flex; gap: 15px; flex-wrap: wrap;">
             <a href="/assets/pdfs/CV_Ilidio_Costa.pdf" style="background: white; color: #1a1a1a; padding: 10px 20px; border-radius: 4px; text-decoration: none; font-weight: bold;">Download CV</a>
-            <a href="mailto:ilidiomibritocosta@gmail.com" style="border: 2px solid white; color: white; padding: 8px 20px; border-radius: 4px; text-decoration: none;">Email Me</a>
-            <a href="https://linkedin.com/in/ilidio-costa/" style="border: 2px solid #0077b5; background: #0077b5; color: white; padding: 8px 20px; border-radius: 4px; text-decoration: none;">LinkedIn</a>
-            <a href="https://github.com/ilidio-costa" style="border: 2px solid #501DAF; background: #501DAF; color: white; padding: 8px 20px; border-radius: 4px; text-decoration: none;">Github</a>
-            <a href="https://orcid.org/0009-0003-0793-4180" style="border: 2px solid #a6ce39; background: #a6ce39; color: white; padding: 8px 20px; border-radius: 4px; text-decoration: none;">ORCID</a>
-            <a href="https://www.researchgate.net/profile/Ilidio-De-Brito-Costa" style="border: 2px solid #00d0af; background: #00d0af; color: white; padding: 8px 20px; border-radius: 4px; text-decoration: none;">ResearchGate</a>
+            <a href="mailto:ilidiomibritocosta@gmail.com" style="border: 2px solid white; color: white; padding: 8px 20px; border-radius: 4px; text-decoration: none; font-weight: bold;">Email Me</a>
+            <a href="https://linkedin.com/in/ilidio-costa/" style="border: 2px solid #0077b5; background: #0077b5; color: white; padding: 8px 20px; border-radius: 4px; text-decoration: none; font-weight: bold;">LinkedIn</a>
+            <a href="https://github.com/ilidio-costa" style="border: 2px solid #501DAF; background: #501DAF; color: white; padding: 8px 20px; border-radius: 4px; text-decoration: none; font-weight: bold;">Github</a>
+            <a href="https://orcid.org/0009-0003-0793-4180" style="border: 2px solid #a6ce39; background: #a6ce39; color: white; padding: 8px 20px; border-radius: 4px; text-decoration: none; font-weight: bold;">ORCID</a>
+            <a href="https://www.researchgate.net/profile/Ilidio-De-Brito-Costa" style="border: 2px solid #00d0af; background: #00d0af; color: white; padding: 8px 20px; border-radius: 4px; text-decoration: none; font-weight: bold;">ResearchGate</a>
         </div>
     </div>
 </div>
@@ -210,11 +210,6 @@ publications_gallery:
 
 {% include feature_row id="projects_gallery" type="center" %}
 
-<script>
-// This is a trick to render the feature rows without complex YAML
-</script>
-
-
 ## 📝 Publications
 
 {% include feature_row id="publications_gallery" type="center" %}
@@ -228,7 +223,7 @@ Ready to build? Feel free to reach out through any of the channels below.
     <a href="/assets/pdfs/CV_Ilidio_Costa.pdf" style="background: #1a1a1a; color: white; padding: 10px 20px; border-radius: 4px; text-decoration: none; font-weight: bold; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">Download CV</a>
     <a href="mailto:ilidiomibritocosta@gmail.com" style="border: 2px solid #333; color: #333; padding: 8px 20px; border-radius: 4px; text-decoration: none; font-weight: bold;">Email Me</a>
     <a href="https://linkedin.com/in/ilidio-costa/" style="border: 2px solid #0077b5; background: #0077b5; color: white; padding: 8px 20px; border-radius: 4px; text-decoration: none; font-weight: bold;">LinkedIn</a>
-    <a href="https://github.com/ilidio-costa" style="border: 2px solid #501DAF; background: #501DAF; color: white; padding: 8px 20px; border-radius: 4px; text-decoration: none;">Github</a>
+    <a href="https://github.com/ilidio-costa" style="border: 2px solid #501DAF; background: #501DAF; color: white; padding: 8px 20px; border-radius: 4px; text-decoration: none; font-weight: bold;">Github</a>
     <a href="https://orcid.org/0009-0003-0793-4180" style="border: 2px solid #a6ce39; background: #a6ce39; color: white; padding: 8px 20px; border-radius: 4px; text-decoration: none; font-weight: bold;">ORCID</a>
     <a href="https://www.researchgate.net/profile/Ilidio-De-Brito-Costa" style="border: 2px solid #00d0af; background: #00d0af; color: white; padding: 8px 20px; border-radius: 4px; text-decoration: none; font-weight: bold;">ResearchGate</a>
 </div>
