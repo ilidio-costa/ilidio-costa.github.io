@@ -7,11 +7,12 @@ toc_label: "Role Overview"
 mathjax: true
 ---
 
-![Logos](/assets/images/niti-thumb.jpg)
+<div style="text-align: left">
+  <img src="/assets/images/niti-thumb.jpg" height = "120">
+</div>
 
 **Organization:** FEUP & CATEC | **Role:** Research AM Engineer | **Timeline:** February 2025 - October 2025
 
----
 
 
 {: .notice--danger}
