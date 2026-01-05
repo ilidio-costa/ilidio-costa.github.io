@@ -1,0 +1,40 @@
+# -----------------------
+# 1. SITE SETTINGS
+# -----------------------
+title: "Ilídio Costa"
+description: "Materials Engineer | Additive Manufacturing | Propulsion"
+url: "https://ilidio-costa.github.io" 
+locale: "en-US"
+
+# -----------------------
+# 2. THEME & VISUALS
+# -----------------------
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: "contrast" # Your current dark theme
+
+# -----------------------
+# 3. PLUGINS & MATH
+# -----------------------
+plugins:
+  - jekyll-include-cache
+
+# This tells the markdown converter to use MathJax
+markdown: kramdown
+mathjax: true
+kramdown:
+  math_engine: mathjax
+  input: GFM
+
+# -----------------------
+# 4. DEFAULTS (Automated Settings)
+# -----------------------
+defaults:
+  - scope:
+      path: ""
+    values:
+      image_path: /assets/images/
+      layout: single
+      author_profile: true      # Shows your sidebar photo/bio
+      toc: true                 # Table of Contents
+      toc_sticky: true
+      mathjax: true             # <--- CRITICAL FIX: Enables math on ALL pages automatically
