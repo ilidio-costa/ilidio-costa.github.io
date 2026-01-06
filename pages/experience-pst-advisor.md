@@ -9,7 +9,7 @@ toc_label: "Role Overview"
 ---
 
 <div style="text-align: left">
-  <img src="/assets/images/pst-chem-thumb.png" style="height: 80px; width: auto;">
+  <img src="/assets/images/pst-chem-thumb.png" style="height: 120px; width: auto;">
 </div>
 
 
@@ -24,11 +24,13 @@ The [Porto Space Team](https://www.portospaceteam.pt/en) is an association made 
 Participated in the Chemical Department of INVICTUS Project, a self pressured hybrid chemical rocket with a estimateed apogee 3 km, which competed at [Euroc24](https://euroc.pt/). The Chemical Department was responsible for the delevopment of the fuel grain, ignition method and ablative liner.
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="/assets/images/advisor/Euroc24.jpg" alt="defending the dissertation" style="max-width: 100%; height: auto;">
+  <img src="/assets/images/advisor/chem-banner.png" alt="defending the dissertation" style="max-width: 100%; height: auto;">
 </div>
 
 
 ## 2. Technical Contributions & Research
+
+My work within the Chemical Department focused on the fundamental materials processement required to power the INVICTUS Project's hybrid engine.
 
 <div style="text-align: center; margin-bottom: 20px;">
   <img src="/assets/images/advisor/chem-overview.png" alt="defending the dissertation" style="max-width: 90%; height: auto;">
@@ -51,19 +53,26 @@ Participated in the Chemical Department of INVICTUS Project, a self pressured hy
   <div style="text-align: center; margin-bottom: 5px;">
     <img src="/assets/images/advisor/grain03.png" alt="defending the dissertation" style="max-width: 75%; height: auto;">
   </div>
-
 </details>
 
-Laboratory work: Participated in small-scale burn tests to validate fuel characteristics and ensure consistency with theoretical performance models.
 
-Collaborative Engineering: Worked closely with the propulsion team to ensure the chemical properties of the fuel were compatible with the mechanical design of the combustion chamber.
+<details>
+  <summary><b>Laboratory work</b>:</summary>
+  <p>
+    Participated in small-scale burn tests to validate fuel characteristics and ensure consistency with theoretical performance models.
+  </p>
+</details>
 
-Hot Fire Test:
-
-<video width="95%" controls>
-  <source src="/assets/images/advisor/hotfire-i.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<details>
+  <summary><b>Collaborative Engineering</b>:</summary>
+  <p>
+    Worked closely with the propulsion team to ensure the chemical properties of the fuel were compatible with the mechanical design of the combustion chamber.
+  </p>
+  <video width="95%" controls>
+    <source src="/assets/images/advisor/hotfire-i.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</details>
 
 
 ## 3. Take away
@@ -73,7 +82,7 @@ Hot Fire Test:
 ---
 
 <div style="text-align: left">
-  <img src="/assets/images/pst-advisor-thumb.png" style="height: 80px; width: auto;">
+  <img src="/assets/images/pst-advisor-thumb.png" style="height: 120px; width: auto;">
 </div>
 
 **Organization:** Porto Space Team | **Role:** Propulsion Department Leader | **Timeline:** October 2024 - October 2025
@@ -112,7 +121,7 @@ Following my time in the Chemical department, I stepped into a leadership role i
 ---
 
 <div style="text-align: left">
-  <img src="/assets/images/pst-advisor-thumb.png" style="height: 80px; width: auto;">
+  <img src="/assets/images/pst-advisor-thumb.png" style="height: 120px; width: auto;">
 </div>
 
 **Organization:** Porto Space Team | **Role:** Propulsion Department Leader | **Timeline:** October 2024 - October 2025

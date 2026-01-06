@@ -8,7 +8,7 @@ mathjax: true
 ---
 
 <div style="text-align: left">
-  <img src="/assets/images/niti-thumb.jpg" style="height: 80px; width: auto;">
+  <img src="/assets/images/niti-thumb.jpg" style="height: 120px; width: auto;">
 </div>
 
 **Organization:** FEUP & CATEC | **Role:** Research AM Engineer | **Timeline:** February 2025 - October 2025
@@ -98,6 +98,22 @@ The manufacturing phase focused on the optimization of Laser Powder Bed Fusion (
 - <b>Mathematical Modeling</b>: Developed Response Surface Methodology (RSM) models using regression analysis to visualize the relationship between input parameters and porosity outcomes.
 
 - <b>Chemical Stability</b>: Monitored elemental composition changes across varying part geometries using X-ray Fluorescence (XRF) and EDS.
+
+test
+
+<details>
+  <summary><b>Process Optimization (L-PBF)</b>:</summary>
+  <p>
+    The manufacturing phase focused on the optimization of Laser Powder Bed Fusion (L-PBF) parameters to minimize porosity:
+  </p>
+  <ul>
+      <li><strong>Multi-Scale Imaging:</strong> Used OM and digital microscopy under polarized light to examine melt pools and grain structures, alongside high-resolution SEM for precipitate detection.</li>
+      <li><strong>Crystallographic Texture:</strong> Performed Electron Backscatter Diffraction (EBSD) to generate orientation imaging maps and pole figures, facilitating a deep understanding of material texture.</li>
+      <li><strong>Phase Identification:</strong> Conducted X-ray Diffraction (XRD) in transmission mode, utilizing computational databases and API-driven diffraction theory (pymatgen) to verify phase indexation.</li>
+    </ul>
+</details>
+
+test
 
 ### Microstructure & Phase Analysis
 
