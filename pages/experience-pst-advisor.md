@@ -15,8 +15,6 @@ toc_label: "Role Overview"
 
 **Organization:** Porto Space Team | **Role:** Chemical Department Member | **Timeline:** October 2023 - October 2024
 
-<details>
-
 ## 1. Introduction
 
 ### Context
@@ -33,7 +31,7 @@ Laboratory Testing: Participated in small-scale burn tests to validate fuel char
 
 Collaborative Engineering: Worked closely with the propulsion team to ensure the chemical properties of the fuel were compatible with the mechanical design of the combustion chamber.
 
-<details>
+
 
 ---
 
@@ -43,7 +41,6 @@ Collaborative Engineering: Worked closely with the propulsion team to ensure the
 
 **Organization:** Porto Space Team | **Role:** Propulsion Department Leader | **Timeline:** October 2024 - October 2025
 
-<details>
 
 Following my time in the Chemical department, I stepped into a leadership role in the new Propulsion department, the fusion of the previeous Propulsion and Chemical Departments, to oversee the development of the hybrid propulsion motor for INVICTUS II, hybrid chemical propulsion rocket with a target 3 km apogee which contited at [Euroc25](https://euroc.pt/).
 
@@ -73,7 +70,7 @@ Following my time in the Chemical department, I stepped into a leadership role i
 
 - <b>Knowledge Implementation</b>: Translated complex concepts from fluid dynamics and combustion into actionable workshop materials for team members
 
-<details>
+
 
 ---
 
@@ -83,14 +80,14 @@ Following my time in the Chemical department, I stepped into a leadership role i
 
 **Organization:** Porto Space Team | **Role:** Propulsion Department Leader | **Timeline:** October 2024 - October 2025
 
-<details>
+
 
 <video width="95%" controls>
   <source src="/assets/images/advisor/static_test.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
-<details>
+
 
 [< Back to Portfolio](/)
 
