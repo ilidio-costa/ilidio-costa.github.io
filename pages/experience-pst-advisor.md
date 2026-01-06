@@ -12,9 +12,7 @@ toc_label: "Role Overview"
   <img src="/assets/images/pst-chem-thumb.png" style="height: 120px; width: auto;">
 </div>
 
-<div style="font-size: 1.15em; margin-bottom: 20px;">
 **Organization:** Porto Space Team | **Role:** Chemical Department Member | **Timeline:** October 2023 - October 2024
-</div>
 
 ## 1. Introduction
 
@@ -92,36 +90,63 @@ My contributions to the Chemical Department focused on translating theoretical p
 
 **Organization:** Porto Space Team | **Role:** Propulsion Department Leader | **Timeline:** October 2024 - October 2025
 
+## 1. Introduction
+
+### Context
 
 Following my time in the Chemical department, I stepped into a leadership role in the new Propulsion department, the fusion of the previeous Propulsion and Chemical Departments, to oversee the development of the hybrid propulsion motor for INVICTUS II, hybrid chemical propulsion rocket with a target 3 km apogee which contited at [Euroc25](https://euroc.pt/).
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="/assets/images/invictusii_thumb.png" alt="defending the dissertation" style="max-width: 25%; height: auto;">
+  <img src="/assets/images/advisor/proplead-banner.png" style="max-width: 25%; height: auto;">
 </div>
 
-## Experience
+## 2. Technical Contributions & Research
 
-### Strategic Management & Team Building:
+Leading the newly unified Propulsion department required a balance between organizational restructuring and technical innovation. My focus was on establishing a culture of data-driven decision-making, where every design iteration was validated through custom analytical models. By standardizing our documentation and recruitment processes, I aimed to bridge the gap between high-level project management and the granular fluid dynamics required for a successful hybrid launch.
 
-- <b>Multidisciplinary Team Management</b>: Coordinated a diverse team of engineers to design and manufacture the hybrid propulsion system.
+<div style="text-align: center; margin-bottom: 20px;">
+  <img src="/assets/images/advisor/lead_chp2.png" style="max-width: 25%; height: auto;">
+</div>
 
-- <b>Internal Workflow</b>: Facilitated weekly department meetings and hands-on work sessions to solve immediate engineering challenges and maintain project momentum.
+<details style=" margin-bottom: 10px;">
+  <summary><b>Strategic Management & Team Building</b>:</summary>
+  <ul>
+      <li><strong>Multidisciplinary Team Management:</strong> Coordinated a diverse team of engineers to design and manufacture the hybrid propulsion system.</li>
+      <li><strong>Internal Workflow:</strong> Facilitated weekly department meetings and hands-on work sessions to solve immediate engineering challenges and maintain project momentum. Acted as the primary representative for the Propulsion department in weekly synchronization meetings with the Lead Engineer and other Department Leaders to ensure cross-system compatibility.</li>
+      <li><strong>Recruitment and Development:</strong> Led the comprehensive recruitment process for new department members, developing structured case studies and conducting interviews to assess technical aptitude and cultural fit. This ensured the continuity and expansion of critical engineering expertise.</li>     
+      <li><strong>Annual Budgeting:</strong> Created and managed the department's annual budget, aligning financial resources with the competition cycle (October to October). Conducted detailed market analysis to secure sponsorships and optimize spending for hybrid propulsion development.</li>    
+    </ul>
+</details>
 
-- <b>Inter-Departmental Liaison</b>: Acted as the primary representative for the Propulsion department in weekly synchronization meetings with the Chief Engineer and other Department Leaders to ensure cross-system compatibility.
+<details style=" margin-bottom: 10px;">
+  <summary><b>Documentation & Analytical Modeling</b>:</summary>
+  <ul>
+      <li><strong>Data-Driven Optimizatio:</strong> Developed custom analytical models in Python (utilizing Pandas, Matplotlib, and Coolprop) to evaluate data from Hot Fire and Cold Flow tests.</li>
+      <div style="text-align: center; margin-bottom: 5px;">
+        <img src="/assets/images/advisor/sim_over.png" style="max-width: 75%; height: auto;">
+      </div>
+      <li><strong>Knowledge Implementation:</strong> Translated complex concepts from fluid dynamics and combustion into actionable workshop materials for team members.</li>
+      <div style="text-align: center; margin-bottom: 5px;">
+        <img src="/assets/images/advisor/tank_vol.png" style="max-width: 75%; height: auto;">
+      </div>      
+      <li><strong>Engineering Standards:</strong> Authored comprehensive technical reports, literature reviews, and safety protocols to standardize manufacturing and testing procedures.</li>
+      <div style="text-align: center; margin-bottom: 5px;">
+        <img src="/assets/images/advisor/sorbitol_pdf.png" style="max-width: 75%; height: auto;">
+      </div>        
+    </ul>
+</details>
 
-- <b>Recruitment and Development</b>: Led the comprehensive recruitment process for new department members, developing structured case studies and conducting interviews to assess technical aptitude and cultural fit. This ensured the continuity and expansion of critical engineering expertise.
+## 3. Take-aways
 
-- <b>Annual Budgeting</b>: Created and managed the department's annual budget, aligning financial resources with the competition cycle (October to October). Conducted detailed market analysis to secure sponsorships and optimize spending for hybrid propulsion development.
+- <b>Organizational Leadership & Change Management</b>: Successfully managed the fusion of two engineering departments, creating a unified workflow that integrated chemical propellant research with mechanical propulsion hardware.
 
-### Technical Documentation & Analytical Modeling
+- <b>Merit-Based Team Growth</b>: Established a rigorous recruitment framework using technical case studies, ensuring the department was staffed by high-aptitude engineers capable of meeting Euroc's standards.
 
-- <b>Data-Driven Optimization</b>: Developed custom analytical models in Python (utilizing Pandas, Matplotlib, and Coolprop) to evaluate data from Hot Fire and Cold Flow tests.
+- <b>Analytical Validation Framework</b>: Implemented a "simulation-first" approach by developing Python-based tools (utilizing Coolprop at this stage) to validate engine performance before committing to physical testing.
 
-- <b>Engineering Standards</b>: Authored comprehensive technical reports, literature reviews, and safety protocols to standardize manufacturing and testing procedures.
+- <b>Fiscal Responsibility in R&D</b>: Gained experience in managing annual budgets and sponsor relations, learning to optimize engineering goals within strict financial and market constraints.
 
-- <b>Knowledge Implementation</b>: Translated complex concepts from fluid dynamics and combustion into actionable workshop materials for team members
-
-
+- <b>Technical Communication</b>: Developed the ability to translate advanced fluid dynamics and combustion theory into standardized engineering protocols and team-wide training workshops.
 
 ---
 
@@ -131,13 +156,18 @@ Following my time in the Chemical department, I stepped into a leadership role i
 
 **Organization:** Porto Space Team | **Role:** Propulsion Department Leader | **Timeline:** October 2024 - October 2025
 
+## Introduction
 
+### Context
+
+## 2. Technical Contributions & Research
 
 <video width="95%" controls>
   <source src="/assets/images/advisor/static_test.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
+## 3. Take-aways
 
 
 [< Back to Portfolio](/)
