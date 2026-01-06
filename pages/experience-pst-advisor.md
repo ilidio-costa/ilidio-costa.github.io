@@ -97,7 +97,7 @@ My contributions to the Chemical Department focused on translating theoretical p
 Following my time in the Chemical department, I stepped into a leadership role in the new Propulsion department, the fusion of the previeous Propulsion and Chemical Departments, to oversee the development of the hybrid propulsion motor for INVICTUS II, hybrid chemical propulsion rocket with a target 3 km apogee which contited at [Euroc25](https://euroc.pt/).
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="/assets/images/advisor/proplead-banner.png" style="max-width: 25%; height: auto;">
+  <img src="/assets/images/advisor/proplead-banner.png" style="max-width: 100%; height: auto;">
 </div>
 
 ## 2. Technical Contributions & Research
@@ -105,7 +105,7 @@ Following my time in the Chemical department, I stepped into a leadership role i
 Leading the newly unified Propulsion department required a balance between organizational restructuring and technical innovation. My focus was on establishing a culture of data-driven decision-making, where every design iteration was validated through custom analytical models. By standardizing our documentation and recruitment processes, I aimed to bridge the gap between high-level project management and the granular fluid dynamics required for a successful hybrid launch.
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="/assets/images/advisor/lead_chp2.png" style="max-width: 25%; height: auto;">
+  <img src="/assets/images/advisor/lead_chp2.png" style="max-width: 90%; height: auto;">
 </div>
 
 <details style=" margin-bottom: 10px;">
@@ -158,9 +158,62 @@ Leading the newly unified Propulsion department required a balance between organ
 
 ## Introduction
 
-### Context
+Following my tenure as the Propulsion Department Leader, I transitioned into an advisory role to focus on my Mater's dissertaion, ensuring the technical continuity and long-term success of the INVICTUS II project. My focus shifted from direct management to high-level technical oversight, institutional knowledge transfer, and the academic mentorship of junior researchers. By bridging the gap between historical project context and future innovation, I helped the team prepare for the Euroc25.
+
+<div style="text-align: center; margin-bottom: 20px;">
+  <img src="/assets/images/advisor/adv-banner.png" style="max-width: 100%; height: auto;">
+</div>
+
+With the progress made with simulation analysis of the static test, i founded Project HyProSim (Hybrid Propulsion Simulator), a Python-based engineering tool designed to model complex multi-physics hybrid engine performance and reduce reliance on costly physical testing. Which won the award of <b>Best Poster Presentation</b> at the 1º Space Education Summit conference in Porto.
+
+<div style="text-align: center; margin-bottom: 20px;">
+  <img src="/assets/images/advisor/advisor-hyprosim.png" style="max-width: 100%; height: auto;">
+</div>
+
 
 ## 2. Technical Contributions & Research
+
+My focus shifted from direct management to high-level technical oversight, institutional knowledge transfer, and the academic mentorship of junior researchers.
+
+<div style="text-align: center; margin-bottom: 20px;">
+  <img src="/assets/images/advisor/adv_chp2.png" style="max-width: 90%; height: auto;">
+</div>
+
+<details>
+  <summary><b>Academic Mentorship</b>:</summary>
+  <p>
+    Supervised a Bachelor’s Dissertation Project focused on the Topological Optimization of the Avionic Bay Support.
+  </p>
+
+  <div style="text-align: center; margin-bottom: 5px;">
+    <img src="/assets/images/advisor/adv_bachelor.png" alt="defending the dissertation" style="max-width: 75%; height: auto;">
+  </div>
+</details>
+
+<details>
+  <summary><b>DfAM & Material Selection</b>:</summary>
+  <p>
+    Instructed team members on concepts of Design for Additive Manufacturing (DfAM) and rigorous material selection protocols to maximize part performance.
+  </p>
+</details>
+
+<details>
+  <summary><b>Advanced Simulation</b>:</summary>
+  <p>
+    Founded Project HyProSim (Hybrid Propulsion Simulator), developing predictive models for engine hot-fire tests that earned "Best Poster Presentation" at the 1st Space Education Summit.
+  </p>
+
+  <div style="text-align: center; margin-bottom: 5px;">
+    <img src="/assets/images/advisor/hypro.png" alt="defending the dissertation" style="max-width: 75%; height: auto;">
+  </div>
+</details>
+
+<details>
+  <summary><b>Protocol Documentation</b>:</summary>
+  <p>
+    Documented best practice protocols and historical engineering decisions to standardize manufacturing and testing procedures.
+  </p>
+</details>
 
 <video width="95%" controls>
   <source src="/assets/images/advisor/static_test.mp4" type="video/mp4">
@@ -168,6 +221,14 @@ Leading the newly unified Propulsion department required a balance between organ
 </video>
 
 ## 3. Take-aways
+
+- <b>Technical Leadership & Mentorship</b>: Developed the ability to translate complex fluid dynamics, combustion theory, and metallurgical principles into actionable training workshops for junior engineers.
+
+- <b>Knowledge Management</b>: Established a framework for facilitating knowledge transfer, ensuring that critical engineering insights from previous iterations were preserved for future team cycles.
+
+- <b>Analytical Validation</b>: Reinforced a "simulation-first" culture by utilizing Python-based tools (including Coolprop and Pandas) to validate engine performance prior to physical testing.
+
+- <b>Interdisciplinary Coordination</b>: Refined the ability to coordinate with multidisciplinary teams, balancing granular technical requirements with high-level project management goals.
 
 
 [< Back to Portfolio](/)
