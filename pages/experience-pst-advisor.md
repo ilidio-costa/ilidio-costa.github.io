@@ -9,7 +9,7 @@ toc_label: "Role Overview"
 ---
 
 <div style="text-align: left">
-  <img src="/assets/images/pst-chem-thumb.png" style="height: 50px; width: auto;">
+  <img src="/assets/images/pst-chem-thumb.png" style="height: 80px; width: auto;">
 </div>
 
 
@@ -30,25 +30,50 @@ Participated in the Chemical Department of INVICTUS Project, a self pressured hy
 
 ## 2. Technical Contributions & Research
 
-Fuel Development: Assisted in the formulation and testing of the hybrid rocket fuel for the INVICTUS project.
+<div style="text-align: center; margin-bottom: 20px;">
+  <img src="/assets/images/advisor/chem-overview.png" alt="defending the dissertation" style="max-width: 90%; height: auto;">
+</div>
 
-Material Selection: Conducted research on paraffin-based grains and additives to optimize the regression rate and combustion efficiency of the motor.
+<details>
+  <summary><b>Fuel Grain Development</b>:</summary>
+  <p>
+    Assisted in the formulation and testing of the hybrid rocket fuel for the INVICTUS project. Conducted research on paraffin-based grains additives and optimize the regression rate based on geometry simulation in python. Developt the production process of ABS reinforced reinforced fuel grains.
+  </p>
 
-Laboratory Testing: Participated in small-scale burn tests to validate fuel characteristics and ensure consistency with theoretical performance models.
+  <div style="text-align: center; margin-bottom: 5px;">
+    <img src="/assets/images/advisor/grain01.png" alt="defending the dissertation" style="max-width: 75%; height: auto;">
+  </div>
+
+  <div style="text-align: center; margin-bottom: 5px;">
+    <img src="/assets/images/advisor/grain02.png" alt="defending the dissertation" style="max-width: 75%; height: auto;">
+  </div>
+
+  <div style="text-align: center; margin-bottom: 5px;">
+    <img src="/assets/images/advisor/grain03.png" alt="defending the dissertation" style="max-width: 75%; height: auto;">
+  </div>
+
+</details>
+
+Laboratory work: Participated in small-scale burn tests to validate fuel characteristics and ensure consistency with theoretical performance models.
 
 Collaborative Engineering: Worked closely with the propulsion team to ensure the chemical properties of the fuel were compatible with the mechanical design of the combustion chamber.
 
+Hot Fire Test:
+
+<video width="95%" controls>
+  <source src="/assets/images/advisor/hotfire-i.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
 ## 3. Take away
 
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="/assets/images/advisor/chem-overview.png" alt="defending the dissertation" style="max-width: 100%; height: auto;">
-</div>
 
 
 ---
 
 <div style="text-align: left">
-  <img src="/assets/images/pst-advisor-thumb.png" style="height: 50px; width: auto;">
+  <img src="/assets/images/pst-advisor-thumb.png" style="height: 80px; width: auto;">
 </div>
 
 **Organization:** Porto Space Team | **Role:** Propulsion Department Leader | **Timeline:** October 2024 - October 2025
@@ -87,7 +112,7 @@ Following my time in the Chemical department, I stepped into a leadership role i
 ---
 
 <div style="text-align: left">
-  <img src="/assets/images/pst-advisor-thumb.png" height = "50"/>
+  <img src="/assets/images/pst-advisor-thumb.png" style="height: 80px; width: auto;">
 </div>
 
 **Organization:** Porto Space Team | **Role:** Propulsion Department Leader | **Timeline:** October 2024 - October 2025

@@ -8,7 +8,7 @@ mathjax: true
 ---
 
 <div style="text-align: left">
-  <img src="/assets/images/niti-thumb.jpg" height = "80">
+  <img src="/assets/images/niti-thumb.jpg" style="height: 80px; width: auto;">
 </div>
 
 **Organization:** FEUP & CATEC | **Role:** Research AM Engineer | **Timeline:** February 2025 - October 2025
@@ -37,18 +37,26 @@ NiTi is a shape memory alloy with exceptional superelasticity and shape memory e
 
 Manufacturing of NiTi components by L-PBF poses challenges, as expressed by some authors. Despite its potential, the implementation of L-PBF in the context of NiTi components manufacturing faces numerous challenges that must be surmounted to ensure the production of reliable, high-performance components. These challenges are regarded as the primary technical hurdles that current research seeks to address:
 
-- <b>Compositional Control</b>: The intense, localised energy from the laser has been shown to cause the preferential evaporation of nickel, which has a higher vapour pressure than titanium. This results in alterations to the Ni/Ti ratio in the final component, which frequently leads to substantial and often unpredictable shifts in the phase transformation temperatures that govern the material’s functional properties.
-
 <details>
-  <summary><b>Compositional Control</b></summary>
+  <summary><b>Compositional Control</b>:</summary>
   <p>
     The intense, localised energy from the laser has been shown to cause the preferential evaporation of nickel, which has a higher vapour pressure than titanium. This results in alterations to the Ni/Ti ratio in the final component, which frequently leads to substantial and often unpredictable shifts in the phase transformation temperatures that govern the material’s functional properties.
   </p>
 </details>
 
-- <b>Defect Formation</b>: Like many alloys processed via L-PBF, NiTi is susceptible to defects that can compromise its structural integrity. Porosity, formed by gas entrapment or lack of fusion between powder layers, is a common problem that can cause fatigue failure. High thermal gradients and rapid solidification can lead to solidification cracking, severely degrading the component’s mechanical properties.
+<details>
+  <summary><b>Defect Formation</b>:</summary>
+  <p>
+    Like many alloys processed via L-PBF, NiTi is susceptible to defects that can compromise its structural integrity. Porosity, formed by gas entrapment or lack of fusion between powder layers, is a common problem that can cause fatigue failure. High thermal gradients and rapid solidification can lead to solidification cracking, severely degrading the component’s mechanical properties.
+  </p>
+</details>
 
-- <b>Microstructural & Phase Control</b>: The highly dynamic and non-equilibrium thermal conditions of L-PBF result in complex microstructures. Therefore, achieving the desired austenitic or martensitic phase composition in the as-built state is challenging.
+<details>
+  <summary><b>Microstructural & Phase Control</b>:</summary>
+  <p>
+    The highly dynamic and non-equilibrium thermal conditions of L-PBF result in complex microstructures. Therefore, achieving the desired austenitic or martensitic phase composition in the as-built state is challenging.
+  </p>
+</details>
 
 ## 2. Technical Experties Utilized
 
@@ -56,15 +64,32 @@ Manufacturing of NiTi components by L-PBF poses challenges, as expressed by some
 
 The research involved a rigorous assessment of Nickel-Titanium (NiTi) powder feedstock to ensure build quality. Key techniques included:
 
-- <b>Morphological and Chemical Analysis</b>: Utilized Scanning Electron Microscopy (SEM) in Backscatter Electron (BSE) mode and Energy-Dispersive X-ray Spectroscopy (EDS) to evaluate powder morphology and detect potential contaminants.
+<details>
+  <summary><b>Morphological and Chemical Analysis</b>:</summary>
+  <p>
+    Utilized Scanning Electron Microscopy (SEM) in Backscatter Electron (BSE) mode and Energy-Dispersive X-ray Spectroscopy (EDS) to evaluate powder morphology and detect potential contaminants.
+  </p>
+</details>
 
-- <b>Particle Size Distribution (PSD)</b>: Implemented an automated data processing pipeline using image analysis software and Python to characterize particle diameters and distribution statistics (span, skewness, and kurtosis). [See more](https://github.com/ilidio-costa/Particle_Size_Distribution_00)
+<details>
+  <summary><b>Particle Size Distribution (PSD)</b>:</summary>
+  <p>
+    Implemented an automated data processing pipeline using image analysis software and Python to characterize particle diameters and distribution statistics (span, skewness, and kurtosis). [See more](https://github.com/ilidio-costa/Particle_Size_Distribution_00)
+  </p>
+</details>
 
-- <b>Internal Porosity</b>: Conducted cross-sectional analysis via Optical Microscopy (OM), involving resin mounting, precision metallographic polishing, and chemical etching to reveal internal structures.
+<details>
+  <summary><b>Internal Porosity</b>:</summary>
+  <p>
+    Conducted cross-sectional analysis via Optical Microscopy (OM), involving resin mounting, precision metallographic polishing, and chemical etching to reveal internal structures.
+  </p>
+</details>
+
 
 ### Process Optimization (L-PBF)
 
 The manufacturing phase focused on the optimization of Laser Powder Bed Fusion (L-PBF) parameters to minimize porosity:
+
 
 - <b>Experimental Design</b>: Employed Taguchi orthogonal arrays to systematically explore the impact of laser power and scanning speed on part density.
 
