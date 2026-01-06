@@ -37,21 +37,21 @@ NiTi is a shape memory alloy with exceptional superelasticity and shape memory e
 
 Manufacturing of NiTi components by L-PBF poses challenges, as expressed by some authors. Despite its potential, the implementation of L-PBF in the context of NiTi components manufacturing faces numerous challenges that must be surmounted to ensure the production of reliable, high-performance components. These challenges are regarded as the primary technical hurdles that current research seeks to address:
 
-<details>
+<details style=" margin-bottom: 5px;">
   <summary><b>Compositional Control</b>:</summary>
   <p>
     The intense, localised energy from the laser has been shown to cause the preferential evaporation of nickel, which has a higher vapour pressure than titanium. This results in alterations to the Ni/Ti ratio in the final component, which frequently leads to substantial and often unpredictable shifts in the phase transformation temperatures that govern the material’s functional properties.
   </p>
 </details>
 
-<details>
+<details style=" margin-bottom: 5px;">
   <summary><b>Defect Formation</b>:</summary>
   <p>
     Like many alloys processed via L-PBF, NiTi is susceptible to defects that can compromise its structural integrity. Porosity, formed by gas entrapment or lack of fusion between powder layers, is a common problem that can cause fatigue failure. High thermal gradients and rapid solidification can lead to solidification cracking, severely degrading the component’s mechanical properties.
   </p>
 </details>
 
-<details>
+<details style=" margin-bottom: 5px;">
   <summary><b>Microstructural & Phase Control</b>:</summary>
   <p>
     The highly dynamic and non-equilibrium thermal conditions of L-PBF result in complex microstructures. Therefore, achieving the desired austenitic or martensitic phase composition in the as-built state is challenging.
@@ -60,78 +60,57 @@ Manufacturing of NiTi components by L-PBF poses challenges, as expressed by some
 
 ## 2. Technical Experties Utilized
 
-### Powder Feedstock Characterization
-
-The research involved a rigorous assessment of Nickel-Titanium (NiTi) powder feedstock to ensure build quality. Key techniques included:
-
-<details>
-  <summary><b>Morphological and Chemical Analysis</b>:</summary>
+<details style=" margin-bottom: 10px;">
+  <summary><b>Powder Feedstock Characterization</b>:</summary>
   <p>
-    Utilized Scanning Electron Microscopy (SEM) in Backscatter Electron (BSE) mode and Energy-Dispersive X-ray Spectroscopy (EDS) to evaluate powder morphology and detect potential contaminants.
+    The research involved a rigorous assessment of Nickel-Titanium (NiTi) powder feedstock to ensure build quality. Key techniques included:
   </p>
-</details>
-
-<details>
-  <summary><b>Particle Size Distribution (PSD)</b>:</summary>
-  <p>
-    Implemented an automated data processing pipeline using image analysis software and Python to characterize particle diameters and distribution statistics (span, skewness, and kurtosis). [See more](https://github.com/ilidio-costa/Particle_Size_Distribution_00)
-  </p>
-</details>
-
-<details>
-  <summary><b>Internal Porosity</b>:</summary>
-  <p>
-    Conducted cross-sectional analysis via Optical Microscopy (OM), involving resin mounting, precision metallographic polishing, and chemical etching to reveal internal structures.
-  </p>
+  <ul>
+      <li><strong>Morphological and Chemical Analysis:</strong> Utilized Scanning Electron Microscopy (SEM) in Backscatter Electron (BSE) mode and Energy-Dispersive X-ray Spectroscopy (EDS) to evaluate powder morphology and detect potential contaminants.</li>
+      <li><strong>Particle Size Distribution (PSD):</strong> Implemented an automated data processing pipeline using image analysis software and Python to characterize particle diameters and distribution statistics (span, skewness, and kurtosis). [See more](https://github.com/ilidio-costa/Particle_Size_Distribution_00) </li>
+      <li><strong>Internal Porosity:</strong> Conducted cross-sectional analysis via Optical Microscopy (OM), involving resin mounting, precision metallographic polishing, and chemical etching to reveal internal structures.</li>     
+    </ul>
 </details>
 
 
-### Process Optimization (L-PBF)
 
-The manufacturing phase focused on the optimization of Laser Powder Bed Fusion (L-PBF) parameters to minimize porosity:
-
-
-- <b>Experimental Design</b>: Employed Taguchi orthogonal arrays to systematically explore the impact of laser power and scanning speed on part density.
-
-- <b>Density and Porosity Quantification</b>: Evaluated build quality through Archimedes' method for bulk density and digital image analysis of polished cross-sections.
-
-- <b>Mathematical Modeling</b>: Developed Response Surface Methodology (RSM) models using regression analysis to visualize the relationship between input parameters and porosity outcomes.
-
-- <b>Chemical Stability</b>: Monitored elemental composition changes across varying part geometries using X-ray Fluorescence (XRF) and EDS.
-
-test
-
-<details>
-  <summary><b>Process Optimization (L-PBF)</b>:</summary>
+<details style=" margin-bottom: 10px;">
+  <summary><b>Powder Feedstock Characterization</b>:</summary>
   <p>
-    The manufacturing phase focused on the optimization of Laser Powder Bed Fusion (L-PBF) parameters to minimize porosity:
+    The research involved a rigorous assessment of Nickel-Titanium (NiTi) powder feedstock to ensure build quality. Key techniques included:
+  </p>
+  <ul>
+      <li><strong>Experimental Design:</strong> Employed Taguchi orthogonal arrays to systematically explore the impact of laser power and scanning speed on part density.</li>
+      <li><strong>Density and Porosity Quantification:</strong> Evaluated build quality through Archimedes' method for bulk density and digital image analysis of polished cross-sections.</li>
+      <li><strong>Mathematical Modeling:</strong> Developed Response Surface Methodology (RSM) models using regression analysis to visualize the relationship between input parameters and porosity outcomes.</li>
+      <li><strong>Microstructure & Phase Analysis:</strong> Monitored elemental composition changes across varying part geometries using X-ray Fluorescence (XRF) and EDS.</li>      
+    </ul>
+</details>
+
+
+<details style=" margin-bottom: 10px;">
+  <summary><b>Microstructure & Phase Analysis</b>:</summary>
+  <p>
+    Advanced characterization was performed to understand the material's structural evolution:
   </p>
   <ul>
       <li><strong>Multi-Scale Imaging:</strong> Used OM and digital microscopy under polarized light to examine melt pools and grain structures, alongside high-resolution SEM for precipitate detection.</li>
       <li><strong>Crystallographic Texture:</strong> Performed Electron Backscatter Diffraction (EBSD) to generate orientation imaging maps and pole figures, facilitating a deep understanding of material texture.</li>
-      <li><strong>Phase Identification:</strong> Conducted X-ray Diffraction (XRD) in transmission mode, utilizing computational databases and API-driven diffraction theory (pymatgen) to verify phase indexation.</li>
+      <li><strong>Phase Identification:</strong> Conducted X-ray Diffraction (XRD) in transmission mode, utilizing computational databases and API-driven diffraction theory (pymatgen) to verify phase indexation.</li>     
     </ul>
 </details>
 
-test
 
-### Microstructure & Phase Analysis
-
-Advanced characterization was performed to understand the material's structural evolution:
-
-- <b>Multi-Scale Imaging</b>: Used OM and digital microscopy under polarized light to examine melt pools and grain structures, alongside high-resolution SEM for precipitate detection.
-
-- <b>Crystallographic Texture</b>: Performed Electron Backscatter Diffraction (EBSD) to generate orientation imaging maps and pole figures, facilitating a deep understanding of material texture.
-
-- <b>Phase Identification</b>: Conducted X-ray Diffraction (XRD) in transmission mode, utilizing computational databases and API-driven diffraction theory (pymatgen) to verify phase indexation.
-
-### Thermal Post-Processing
-
-To refine material properties, controlled thermal treatments were applied:
-
-- <b>Heat Treatment</b>: Executed solubilization treatments in a vertical furnace under inert gas flow to ensure environmental control.
-
-- <b>Post-Treatment Validation</b>: Re-examined the samples through metallographic preparation and SEM/EDS to assess the effect of thermal history on precipitates and microstructure.
+<details style=" margin-bottom: 10px;">
+  <summary><b>Thermal Post-Processing</b>:</summary>
+  <p>
+    To refine material properties, controlled thermal treatments were applied:
+  </p>
+  <ul>
+      <li><strong>Heat Treatment:</strong> Executed solubilization treatments in a vertical furnace under inert gas flow to ensure environmental control.</li>
+      <li><strong>Post-Treatment Validation:</strong> Re-examined the samples through metallographic preparation and SEM/EDS to assess the effect of thermal history on precipitates and microstructure.</li>    
+    </ul>
+</details>
 
 ## 3. Take aways
 
