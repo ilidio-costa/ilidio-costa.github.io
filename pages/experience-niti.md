@@ -39,6 +39,13 @@ Manufacturing of NiTi components by L-PBF poses challenges, as expressed by some
 
 - <b>Compositional Control</b>: The intense, localised energy from the laser has been shown to cause the preferential evaporation of nickel, which has a higher vapour pressure than titanium. This results in alterations to the Ni/Ti ratio in the final component, which frequently leads to substantial and often unpredictable shifts in the phase transformation temperatures that govern the material’s functional properties.
 
+<details>
+  <summary><b>Compositional Control</b></summary>
+  <p>
+    The intense, localised energy from the laser has been shown to cause the preferential evaporation of nickel, which has a higher vapour pressure than titanium. This results in alterations to the Ni/Ti ratio in the final component, which frequently leads to substantial and often unpredictable shifts in the phase transformation temperatures that govern the material’s functional properties.
+  </p>
+</details>
+
 - <b>Defect Formation</b>: Like many alloys processed via L-PBF, NiTi is susceptible to defects that can compromise its structural integrity. Porosity, formed by gas entrapment or lack of fusion between powder layers, is a common problem that can cause fatigue failure. High thermal gradients and rapid solidification can lead to solidification cracking, severely degrading the component’s mechanical properties.
 
 - <b>Microstructural & Phase Control</b>: The highly dynamic and non-equilibrium thermal conditions of L-PBF result in complex microstructures. Therefore, achieving the desired austenitic or martensitic phase composition in the as-built state is challenging.
@@ -85,7 +92,7 @@ To refine material properties, controlled thermal treatments were applied:
 
 - <b>Post-Treatment Validation</b>: Re-examined the samples through metallographic preparation and SEM/EDS to assess the effect of thermal history on precipitates and microstructure.
 
-## 3. Conclusion
+## 3. Take aways
 
 The successful optimization of L-PBF parameters culminated in the production of NiTi components reaching a relative density of > 99.9%. This achievement represents a critical milestone in regards to defect formation and structural integrity. By virtually eliminating porosity, which is often the precursor to fatigue failure in additive-manufacured alloys, this work demonstrates that L-PBF can produce NiTi parts with the mechanical reliability required for high-stakes environments.
 

@@ -19,7 +19,14 @@ toc_label: "Role Overview"
 
 ### Context
 
-[Porto Space Team](https://www.portospaceteam.pt/en) is an association made up of university students, from mainly from FEUP (Faculty of Engineering of the University of Porto) and FCUP (Faculty of Sciences of the University of Porto) with the mission is to produce meaningful research, while teaching aspiring engineers to become even better professionals.
+The [Porto Space Team](https://www.portospaceteam.pt/en) is an association made up of university students, from mainly from FEUP (Faculty of Engineering of the University of Porto) and FCUP (Faculty of Sciences of the University of Porto) with the mission is to produce meaningful research, while teaching aspiring engineers to become even better professionals.
+
+Participated in the Chemical Department of INVICTUS Project, a self pressured hybrid chemical rocket with a estimateed apogee 3 km, which competed at [Euroc24](https://euroc.pt/). The Chemical Department was responsible for the delevopment of the fuel grain, ignition method and ablative liner.
+
+<div style="text-align: center; margin-bottom: 20px;">
+  <img src="/assets/images/advisor/Euroc24.jpg" alt="defending the dissertation" style="max-width: 100%; height: auto;">
+</div>
+
 
 ## 2. Technical Contributions & Research
 
@@ -31,6 +38,11 @@ Laboratory Testing: Participated in small-scale burn tests to validate fuel char
 
 Collaborative Engineering: Worked closely with the propulsion team to ensure the chemical properties of the fuel were compatible with the mechanical design of the combustion chamber.
 
+## 3. Take away
+
+<div style="text-align: center; margin-bottom: 20px;">
+  <img src="/assets/images/advisor/chem-overview.png" alt="defending the dissertation" style="max-width: 100%; height: auto;">
+</div>
 
 
 ---
