@@ -251,11 +251,28 @@ publications_gallery:
 
 {% include feature_row id="projects_gallery" type="center" %}
 
+## Technical Projects
+
 <div class="project-gallery-top">
   {% include feature_row id="projects_gallery" type="center" %}
 </div>
+
 <div id="hidden-projects" style="display: none;">
   {% include feature_row id="projects_archive" type="center" %}
+</div>
+
+<div style="text-align: center; margin-top: 10px; margin-bottom: 40px;">
+    <button id="project-expand-btn" onclick="toggleProjects()" style="
+        background: transparent; 
+        border: 2px solid #555; 
+        color: #555; 
+        padding: 10px 20px; 
+        border-radius: 30px; 
+        cursor: pointer; 
+        font-weight: bold;
+        transition: all 0.3s ease;">
+        Show More Projects ▼
+    </button>
 </div>
 
 ## Publications
@@ -275,12 +292,17 @@ Ready to build? Feel free to reach out through any of the channels below.
 </div>
 
 <style>
-  /* --- NEW CODE STARTS HERE --- */
-  /* This removes the line under the first 2 projects */
+/* --- STRONGER CSS FIX --- */
+  /* This removes the border and spacing from the visible list */
   .project-gallery-top .feature__wrapper {
     border-bottom: none !important;
     margin-bottom: 0 !important;
     padding-bottom: 0 !important;
+  }
+  
+  /* Safety net: ensures the container itself has no border */
+  .project-gallery-top {
+    border: none !important;
   }
   /* --- NEW CODE ENDS HERE --- */
 
