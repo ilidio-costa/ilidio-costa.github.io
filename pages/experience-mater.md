@@ -8,10 +8,35 @@ toc: true
 toc_label: "Role Overview"
 ---
 
+<div style="text-align: left">
+  <img src="/assets/images/mater-thumb.png" style="height: 120px; width: auto;">
+</div>
+
 **Organization:** MatΣR | **Role:** Student Researcher | **Timeline:** August 2023 - August 2024
 
-![Logos](/assets/images/mater-thumb.png)
 
+{: .notice--danger}
+**Restricted Access:** This work is protected by a Non-Disclore Aggreament.
+
+## 1. Introduction
+
+MatΣR (Materials Energy Research) is a research group based at FEUP that studies various energy storage phenomena lead by Prof.ª Helena Braga. An enthusiatic research group pushung the bounderies of energy storage and physics.
+
+<div style="text-align: center; margin-bottom: 20px;">
+  <img src="/assets/images/mater/mater_banner.png" alt="defending the dissertation" style="max-width: 100%; height: auto;">
+</div>
+
+## 2. Public Contribution
+
+I have helped in the development of several projects and collaborated in scientific papers. Namely the project "ElectriElectrifying the Future with Wireless Technologies: Electrode-less Batteries" which I had the pleasure to present with my colleages at Galp's headquarters in Lisbon.
+
+<div style="text-align: center; margin-bottom: 20px;">
+  <img src="/assets/images/mater/galp.jpg" alt="defending the dissertation" style="max-width: 90%; height: auto;">
+</div>
+
+## 3. Take Aways
+
+- <b>Scientific Dissemination & Industry Engagement</b>: Developed the ability to translate high-level energy storage research into compelling narratives for industry stakeholders, exemplified by the presentation of "Electrode-less Batteries" at Galp’s headquarters.
 
 
 [< Back to Portfolio](/)

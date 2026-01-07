@@ -69,7 +69,7 @@ My contributions to the Chemical Department focused on translating theoretical p
   </p>
 </details>
 
-  <video width="95%" controls>
+  <video width="90%" controls>
     <source src="/assets/images/advisor/hotfire-i.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
@@ -215,7 +215,7 @@ My focus shifted from direct management to high-level technical oversight, insti
   </p>
 </details>
 
-<video width="95%" controls>
+<video width="90%" controls>
   <source src="/assets/images/advisor/static_test.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
