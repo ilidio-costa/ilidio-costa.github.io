@@ -33,10 +33,34 @@ experience_gallery:
     btn_class: "btn--inverse"
     
 projects_gallery:
-  - image_path: /assets/images/fem-thumb.jpg
-    title: "Topology Optimization"
-    excerpt: "**Research Project**<br>FEA analysis of cutting heads."
-    url: "/pages/project-niti/"
+  - title: "Predictive Modeling of L-PBF Processing Maps"
+    excerpt: "Personal Project"
+    url: "/pages/project-PMoLPBFPM/"
+    btn_label: "View Case Study"
+    btn_class: "btn--primary"
+  - title: "INVICTUS II"
+    excerpt: "Porto Space Team project"
+    url: "/pages/project-invictuii/"
+    btn_label: "View Case Study"
+    btn_class: "btn--primary"
+  - title: "HyProSim"
+    excerpt: "Porto Space Team project"
+    url: "/pages/project-hyprosim/"
+    btn_label: "View Case Study"
+    btn_class: "btn--primary"
+  - title: "Topology Optimization of a Milling Cutter Head for Additive Manufacturing"
+    excerpt: "Research Project"
+    url: "/pages/project-palbit/"
+    btn_label: "View Case Study"
+    btn_class: "btn--primary"
+  - title: "Prima Sharp 150"
+    excerpt: "Academic Project"
+    url: "/pages/project-prima/"
+    btn_label: "View Case Study"
+    btn_class: "btn--primary"
+  - title: "INVICTUS I"
+    excerpt: "Porto Space Team project"
+    url: "/pages/project-invictus/"
     btn_label: "View Case Study"
     btn_class: "btn--primary"
 
@@ -228,8 +252,6 @@ publications_gallery:
 ## 📝 Publications
 
 {% include feature_row id="publications_gallery" type="center" %}
-
----
 
 ## 📬 Contact
 Ready to build? Feel free to reach out through any of the channels below.

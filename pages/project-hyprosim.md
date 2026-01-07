@@ -7,11 +7,16 @@ toc_label: "Role Overview"
 mathjax: true
 ---
 
-![Logos](/assets/images/niti-thumb.jpg)
-
 **Project:** HyProSim | **Tools:** Python, Coolprop, RocketCEA 
 
+## 1. Introduction
+
 HyProSim arose from project INVICTUS, which encompasses the development of a high-performance hybrid-propulsion rocket with a apogee of 3 km aimed at participating in the European Rocketry Challenge (EuRoC). Due to the high cost of experimental testing, simulation of these complex multi-physics hybrid rocket engines proves to be essential. In 2024, Porto Space Team marked history as the first Portuguese student-led team to produce and validate a hybrid rocket engine and first to compete in Euroc with a Portuguese hybrid engine.
+
+<div style="text-align: center; margin-bottom: 20px;">
+  <img src="/assets/images/hyprosim.png" alt="defending the dissertation" style="max-width: 25%; height: auto;">
+</div>
+
 Hybrid rocket engines are of significant relevance to the future of space exploration, particularly for Portugal. This technology offers a compelling combination of safety and controllability, making it ideal for launching small satellites, a rapidly expanding market segment. Furthermore, hybrid engines present a more sustainable alternative, aligning with Portugal’s environmental objectives.
 
 [< Back to Portfolio](/)

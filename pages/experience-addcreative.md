@@ -8,9 +8,11 @@ toc: true
 toc_label: "Role Overview"
 ---
 
-**Organization:** Addcreative | **Role:** Material Engineer Intern | **Timeline:** February 2023 - October 2023
+<div style="text-align: left">
+  <img src="/assets/images/addcreative-thumb.png" style="height: 120px; width: auto;">
+</div>
 
-![Logos](/assets/images/addcreative-thumb.png)
+**Organization:** Addcreative | **Role:** Material Engineer Intern | **Timeline:** February 2023 - October 2023
 
 ## 1. Introdution
 
