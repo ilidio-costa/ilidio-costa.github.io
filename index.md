@@ -233,7 +233,7 @@ publications_gallery:
 
 <br>
 
-## 🎓 Education
+## Education
 
 **MSc Materials Engineering** | *FEUP, Porto (2025)*
 * **Dissertation:** Parameter Optimization of Laser Powder Bed Fusion of NiTi.
@@ -251,29 +251,18 @@ publications_gallery:
 
 {% include feature_row id="projects_gallery" type="center" %}
 
+<div class="project-gallery-top">
+  {% include feature_row id="projects_gallery" type="center" %}
+</div>
 <div id="hidden-projects" style="display: none;">
   {% include feature_row id="projects_archive" type="center" %}
 </div>
 
-<div style="text-align: center; margin-top: 10px; margin-bottom: 40px;">
-    <button id="project-expand-btn" onclick="toggleProjects()" style="
-        background: transparent; 
-        border: 2px solid #555; 
-        color: #555; 
-        padding: 10px 20px; 
-        border-radius: 30px; 
-        cursor: pointer; 
-        font-weight: bold;
-        transition: all 0.3s ease;">
-        Show More Projects ▼
-    </button>
-</div>
-
-## 📝 Publications
+## Publications
 
 {% include feature_row id="publications_gallery" type="center" %}
 
-## 📬 Contact
+## Contact
 Ready to build? Feel free to reach out through any of the channels below.
 
 <div style="margin-top: 30px; display: flex; gap: 15px; flex-wrap: wrap; justify-content: center; align-items: center; padding-bottom: 40px;">
@@ -286,6 +275,15 @@ Ready to build? Feel free to reach out through any of the channels below.
 </div>
 
 <style>
+  /* --- NEW CODE STARTS HERE --- */
+  /* This removes the line under the first 2 projects */
+  .project-gallery-top .feature__wrapper {
+    border-bottom: none !important;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  /* --- NEW CODE ENDS HERE --- */
+
   /* 1. Hide Top Title */
   .masthead__branding {
     display: none !important;
@@ -367,7 +365,7 @@ Ready to build? Feel free to reach out through any of the channels below.
 </style>
 
 <script>
-  
+
   function toggleProjects() {
   var x = document.getElementById("hidden-projects");
   var btn = document.getElementById("project-expand-btn");
