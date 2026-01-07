@@ -41,9 +41,24 @@ projects_gallery:
     btn_class: "btn--primary"
 
 publications_gallery:
-  - title: "Parameter Optimisation for LPBF of NiTi"
-    excerpt: "Published in *Journal of Materials* (2025).<br>We explored the energy density limits..."
-    url: "https://doi.org/your-paper-link"
+  - title: "Characterization Of Inconel 718 Powder And Specimens Produced By L-PBF In Different Orientations"
+    excerpt: "Publisehd at Euro PM2025 Proceedings 2025-09-11, Conference paper"
+    url: "https://doi.org/10.59499/ep256768283"
+    btn_label: "Read Paper"
+    btn_class: "btn--inverse"
+  - title: "Heat Treatments Of Inconel 718 Produce By L-DED"
+    excerpt: "Publisehd at Euro PM2025 Proceedings 2025-09-11, Conference paper"
+    url: "https://doi.org/10.59499/ep256767779"
+    btn_label: "Read Paper"
+    btn_class: "btn--inverse"
+  - title: "Topology Optimization of a Milling Cutter Head for Additive Manufacturing"
+    excerpt: "Publisehd at Metals 2025-06, Journal article"
+    url: "https://doi.org/10.3390/met15070729"
+    btn_label: "Read Paper"
+    btn_class: "btn--inverse"
+  - title: "Distinctive Electric Properties of Group 14 Oxides: SiO2, SiO, and SnO2"
+    excerpt: "Publisehd at International Journal of Molecular Sciences 2023-11-05, Journal article"
+    url: "https://doi.org/10.3390/met15070729"
     btn_label: "Read Paper"
     btn_class: "btn--inverse"
 ---
@@ -134,7 +149,7 @@ publications_gallery:
 </div>
 
 
-<div class="marquee-container drag-scroll drag-scroll" data-speed="1">
+<div class="marquee-container drag-scroll drag-scroll" data-speed="1.2">
   <div class="marquee-content">
     <span class="skill-pill">Fusion 360 (CAD)</span>
     <span class="skill-pill">NX Siemens (CAD, TopOp)</span>
