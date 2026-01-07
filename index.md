@@ -40,9 +40,11 @@ projects_gallery:
     btn_class: "btn--primary"
   - title: "INVICTUS II"
     excerpt: "Porto Space Team project"
-    url: "/pages/project-invictuii/"
+    url: "/pages/project-invictusii/"
     btn_label: "View Case Study"
     btn_class: "btn--primary"
+
+projects_archive:
   - title: "HyProSim"
     excerpt: "Porto Space Team project"
     url: "/pages/project-hyprosim/"
@@ -249,6 +251,24 @@ publications_gallery:
 
 {% include feature_row id="projects_gallery" type="center" %}
 
+<div id="hidden-projects" style="display: none;">
+  {% include feature_row id="projects_archive" type="center" %}
+</div>
+
+<div style="text-align: center; margin-top: 10px; margin-bottom: 40px;">
+    <button id="project-expand-btn" onclick="toggleProjects()" style="
+        background: transparent; 
+        border: 2px solid #555; 
+        color: #555; 
+        padding: 10px 20px; 
+        border-radius: 30px; 
+        cursor: pointer; 
+        font-weight: bold;
+        transition: all 0.3s ease;">
+        Show More Projects ▼
+    </button>
+</div>
+
 ## 📝 Publications
 
 {% include feature_row id="publications_gallery" type="center" %}
@@ -347,6 +367,29 @@ Ready to build? Feel free to reach out through any of the channels below.
 </style>
 
 <script>
+  
+  function toggleProjects() {
+  var x = document.getElementById("hidden-projects");
+  var btn = document.getElementById("project-expand-btn");
+  
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    btn.innerHTML = "Show Less ▲";
+    // Optional: Add a highlight style when active
+    btn.style.borderColor = "#0077b5"; 
+    btn.style.color = "#0077b5";
+  } else {
+    x.style.display = "none";
+    btn.innerHTML = "Show More Projects ▼";
+    // Reset style
+    btn.style.borderColor = "#555";
+    btn.style.color = "#555";
+    
+    // Optional: Scroll back up slightly to the projects header if user closes it
+    // document.getElementById("technical-projects-header").scrollIntoView({behavior: "smooth"});
+  }
+}
+
   const containers = document.querySelectorAll('.drag-scroll');
 
   containers.forEach(container => {

@@ -16,7 +16,7 @@ toc_label: "Role Overview"
 
 ## 1. Introdution
 
-During my internship at Adira Addcreative—a specialist in large-scale metal additive manufacturing recently acquired by SLM Solutions—I conducted research for my Bachelor's dissertation focused on the industrial application of Laser Powder Bed Fusion (L-PBF). Working with the revolutionary Addcreator machine, which utilizes "Tiled Laser Melting" (TLM) technology, I focused on bridging the gap between raw feedstock properties and final print quality for large-scale engineering components.
+During my internship at Adira Addcreative, a specialist in large-scale metal additive manufacturing recently acquired by SLM Solutions. I conducted research for my Bachelor's dissertation focused on the industrial application of Laser Powder Bed Fusion (L-PBF). Working with the revolutionary Addcreator machine, which utilizes "Tiled Laser Melting" (TLM) technology, I focused on bridging the gap between raw feedstock properties and final print quality for large-scale engineering components.
 
 <div style="text-align: center; margin-bottom: 20px;">
   <img src="/assets/images/adira/add_banner.png" style="max-width: 100%; height: auto;">

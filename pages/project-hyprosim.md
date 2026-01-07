@@ -7,7 +7,7 @@ toc_label: "Role Overview"
 mathjax: true
 ---
 
-**Project:** HyProSim | **Tools:** Python, Coolprop, RocketCEA 
+**Project:** HyProSim | **Tools:** Leadership, Python, Coolprop, RocketCEA 
 
 ## 1. Introduction
 
@@ -17,7 +17,10 @@ HyProSim arose from project INVICTUS, which encompasses the development of a hig
   <img src="/assets/images/hyprosim.png" alt="defending the dissertation" style="max-width: 25%; height: auto;">
 </div>
 
-Hybrid rocket engines are of significant relevance to the future of space exploration, particularly for Portugal. This technology offers a compelling combination of safety and controllability, making it ideal for launching small satellites, a rapidly expanding market segment. Furthermore, hybrid engines present a more sustainable alternative, aligning with Portugal’s environmental objectives.
+Hybrid rocket engines are of significant relevance to the future of space exploration, particularly for Portugal. This technology offers a compelling combination of safety and controllability, making it ideal for launching small satellites, a rapidly expanding market segment. Furthermore, hybrid engines present a more sustainable alternative, aligning with Portugal’s environmental objectives. Currently there's efforts to publish a stable version of the project.
+
+<iframe src="/assets/pdfs/hyprosim_intro.pdf" width="75%" height="600px" style="border: none;">
+</iframe>
 
 [< Back to Portfolio](/)
 
