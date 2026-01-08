@@ -19,7 +19,7 @@ HyProSim arose from project INVICTUS, which encompasses the development of a hig
 
 Hybrid rocket engines are of significant relevance to the future of space exploration, particularly for Portugal. This technology offers a compelling combination of safety and controllability, making it ideal for launching small satellites, a rapidly expanding market segment. Furthermore, hybrid engines present a more sustainable alternative, aligning with Portugal’s environmental objectives. Currently there's efforts to publish a stable version of the project.
 
-<iframe src="/assets/pdfs/hyprosim_intro.pdf" width="75%" height="600px" style="border: none;">
+<iframe src="/assets/pdfs/hyprosim_intro.pdf" width="75%" height="600px" style="border: none; text-align: center;">
 </iframe>
 
 [< Back to Portfolio](/)

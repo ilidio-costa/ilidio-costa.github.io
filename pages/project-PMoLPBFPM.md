@@ -17,6 +17,8 @@ This personal project focuses on the development of a predictive model for Laser
   <img src="/assets/images/Logo_LPBF.png" alt="defending the dissertation" style="max-width: 25%; height: auto;">
 </div>
 
+This work is still ongoing ... 
+
 [< Back to Portfolio](/)
 
 <style>

@@ -249,10 +249,6 @@ publications_gallery:
 
 ## Technical Projects
 
-{% include feature_row id="projects_gallery" type="center" %}
-
-## Technical Projects
-
 <div class="project-gallery-top">
   {% include feature_row id="projects_gallery" type="center" %}
 </div>
