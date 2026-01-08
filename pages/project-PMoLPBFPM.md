@@ -7,7 +7,7 @@ toc_label: "Role Overview"
 mathjax: true
 ---
 
-**Project:** Predictive Modeling of L-PBF Processing Maps | **Tools:** Leadership
+**Project:** Predictive Modeling of L-PBF Processing Maps | **Tools:** Leadership  | **Authors:** Ilídio Costa
 
 ## 1. Introduction
 

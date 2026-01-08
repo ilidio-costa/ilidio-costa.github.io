@@ -7,7 +7,7 @@ toc_label: "Role Overview"
 mathjax: true
 ---
 
-**Project:** INVICTUS II | **Tools:** Leadership, Problem Solving, Engineering, Propulsion, CAD, TopOp, Python
+**Project:** INVICTUS II | **Skills:** Leadership, Problem Solving, Engineering, Propulsion, CAD, TopOp, Python  | **Authors:** Porto Space Team
 
 ## 1. Introduction
 

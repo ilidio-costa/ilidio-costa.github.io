@@ -7,9 +7,9 @@ toc_label: "Role Overview"
 mathjax: true
 ---
 
-**Project:** Topological Optimization of Milling Head | **Tools:** nTop, TopOp, FEA 
+**Project:** Topological Optimization of Milling Head | **Tools:** nTop, TopOp, FEA  | **Authors:** Ilídio Brito Costa, Bruno Rafael Cunha, João Marouvo, Daniel Figueiredo, Bruno Miguel Guimarães, Manuel Fernando Vieira & José Manuel Costa
 
-This project was done within the re
+## 1. Introduction
 
 [< Back to Portfolio](/)
 

@@ -34,19 +34,19 @@ experience_gallery:
     
 projects_gallery:
   - title: "Predictive Modeling of L-PBF Processing Maps"
-    excerpt: "Personal Project"
+    excerpt: "Personal Project, low computational simulation"
     url: "/pages/project-PMoLPBFPM/"
     btn_label: "View Case Study"
     btn_class: "btn--primary"
   - title: "INVICTUS II"
-    excerpt: "Porto Space Team project"
+    excerpt: "Porto Space Team project - Hybrid chemical sounding rocket"
     url: "/pages/project-invictusii/"
     btn_label: "View Case Study"
     btn_class: "btn--primary"
 
 projects_archive:
   - title: "HyProSim"
-    excerpt: "Porto Space Team project"
+    excerpt: "Porto Space Team project - Hybrid Rocket Engine Propulsion Simulation, an Engineering Tool"
     url: "/pages/project-hyprosim/"
     btn_label: "View Case Study"
     btn_class: "btn--primary"
@@ -68,22 +68,24 @@ projects_archive:
 
 publications_gallery:
   - title: "Characterization Of Inconel 718 Powder And Specimens Produced By L-PBF In Different Orientations"
-    excerpt: "Publisehd at Euro PM2025 Proceedings 2025-09-11, Conference paper"
+    excerpt: "<i><b>Authors:</b> Ilídio Costa, Diogo Mota, Mariana Maia, Afonso Nogueira, Jose M. Costa & Elsa W. Sequeiros</i><br>Published at Euro PM2025 Proceedings 2025-09-11, Conference paper"
     url: "https://doi.org/10.59499/ep256768283"
     btn_label: "Read Paper"
     btn_class: "btn--inverse"
   - title: "Heat Treatments Of Inconel 718 Produce By L-DED"
-    excerpt: "Publisehd at Euro PM2025 Proceedings 2025-09-11, Conference paper"
+    excerpt: "<i><b>Authors:</b> Ilídio Costa, Bernardo L. Ribeiro, Dinis Carneiro, Bruno Cunha, José Monteiro & Elsa W. Sequeiros</i><br>Published at Euro PM2025 Proceedings 2025-09-11, Conference paper"
     url: "https://doi.org/10.59499/ep256767779"
     btn_label: "Read Paper"
     btn_class: "btn--inverse"
+
+publications_archive:
   - title: "Topology Optimization of a Milling Cutter Head for Additive Manufacturing"
-    excerpt: "Publisehd at Metals 2025-06, Journal article"
+    excerpt: "<i><b>Authors:</b> Ilídio Brito Costa, Bruno Rafael Cunha, João Marouvo, Daniel Figueiredo, Bruno Miguel Guimarães, Manuel Fernando Vieira & José Manuel Costa</i><br>Published at Metals 2025-06, Journal article"
     url: "https://doi.org/10.3390/met15070729"
     btn_label: "Read Paper"
     btn_class: "btn--inverse"
   - title: "Distinctive Electric Properties of Group 14 Oxides: SiO2, SiO, and SnO2"
-    excerpt: "Publisehd at International Journal of Molecular Sciences 2023-11-05, Journal article"
+    excerpt: "Published at International Journal of Molecular Sciences 2023-11-05, Journal article"
     url: "https://doi.org/10.3390/met15070729"
     btn_label: "Read Paper"
     btn_class: "btn--inverse"
@@ -273,7 +275,27 @@ publications_gallery:
 
 ## Publications
 
-{% include feature_row id="publications_gallery" type="center" %}
+<div class="project-gallery-top">
+  {% include feature_row id="publications_gallery" type="center" %}
+</div>
+
+<div id="hidden-publications" style="display: none;">
+  {% include feature_row id="publications_archive" type="center" %}
+</div>
+
+<div style="text-align: center; margin-top: 10px; margin-bottom: 40px;">
+    <button id="publication-expand-btn" onclick="togglePublications()" style="
+        background: transparent; 
+        border: 2px solid #555; 
+        color: #555; 
+        padding: 10px 20px; 
+        border-radius: 30px; 
+        cursor: pointer; 
+        font-weight: bold;
+        transition: all 0.3s ease;">
+        Show More Publications ▼
+    </button>
+</div>
 
 ## Contact
 Ready to build? Feel free to reach out through any of the channels below.
@@ -403,6 +425,23 @@ Ready to build? Feel free to reach out through any of the channels below.
     
     // Optional: Scroll back up slightly to the projects header if user closes it
     // document.getElementById("technical-projects-header").scrollIntoView({behavior: "smooth"});
+  }
+}
+
+function togglePublications() {
+  var x = document.getElementById("hidden-publications");
+  var btn = document.getElementById("publication-expand-btn");
+  
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    btn.innerHTML = "Show Less ▲";
+    btn.style.borderColor = "#0077b5"; 
+    btn.style.color = "#0077b5";
+  } else {
+    x.style.display = "none";
+    btn.innerHTML = "Show More Projects ▼";
+    btn.style.borderColor = "#555";
+    btn.style.color = "#555";
   }
 }
 

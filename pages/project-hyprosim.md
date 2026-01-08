@@ -7,7 +7,7 @@ toc_label: "Role Overview"
 mathjax: true
 ---
 
-**Project:** HyProSim | **Tools:** Leadership, Python, Coolprop, RocketCEA 
+**Project:** HyProSim | **Tools:** Leadership, Python, Coolprop, RocketCEA  | **Authors:** Ilídio Costa, Rafael Lino & Pedro Gameiro
 
 ## 1. Introduction
 
