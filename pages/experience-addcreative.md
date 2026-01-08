@@ -32,6 +32,11 @@ During my internship at Adira Addcreative, a specialist in large-scale metal add
 
 - <b>Standardized Testing:</b> Applied rigorous materials science protocols to ensure that feedstock met the high-performance requirements of sectors such as aerospace and energy.
 
+<div style="text-align: center;">
+  <iframe src="/assets/pdfs/addcreative_report.pdf" width="75%" height="600px" style="border: none;">
+  </iframe>
+</div>
+
 ## 3. Take-aways
 
 - <b>Metallurgical Precision in AM:</b> Developed a deep understanding of how physical powder specifications directly influence the laser-material interaction and final part density in metal 3D printing.
