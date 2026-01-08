@@ -69,10 +69,12 @@ My contributions to the Chemical Department focused on translating theoretical p
   </p>
 </details>
 
+<div style="text-align: center;">
   <video width="90%" controls>
     <source src="/assets/images/advisor/hotfire-i.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
+</div>
 
 ## 3. Take-aways
 
@@ -130,9 +132,10 @@ Leading the newly unified Propulsion department required a balance between organ
         <img src="/assets/images/advisor/tank_vol.png" style="max-width: 75%; height: auto;">
       </div>      
       <li><strong>Engineering Standards:</strong> Authored comprehensive technical reports, literature reviews, and safety protocols to standardize manufacturing and testing procedures.</li>
-      <div style="text-align: center; margin-bottom: 5px;">
-        <img src="/assets/images/advisor/sorbitol_pdf.png" style="max-width: 75%; height: auto;">
-      </div>        
+      <div style="text-align: center;">
+        <iframe src="/assets/pdfs/Propulsion_WorkFile_PST.pdf" width="75%" height="600px">
+        </iframe>
+      </div>      
     </ul>
 </details>
 
@@ -215,10 +218,12 @@ My focus shifted from direct management to high-level technical oversight, insti
   </p>
 </details>
 
-<video width="90%" controls>
-  <source src="/assets/images/advisor/static_test.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<div style="text-align: center;">
+  <video width="90%" controls>
+    <source src="/assets/images/advisor/static_test.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
 ## 3. Take-aways
 

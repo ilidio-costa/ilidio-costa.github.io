@@ -31,7 +31,7 @@ My primary responsibility was the physical integration of the machine's internal
 
 A critical phase of the project focused on Initial Layer Adhesion. I established a rigorous verification protocol to inspect the first 100–500 microns of the build. By analyzing melt pool stability and track uniformity at the interface between the substrate and the part, I was able to mitigate the risks of delamination and thermal warping early in the process cycle.
 
-  <video width="90%" controls>
+  <video width="90%" controls style="text-align: center; margin-bottom: 20px;">
     <source src="/assets/images/prima/printing.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
@@ -40,13 +40,13 @@ A critical phase of the project focused on Initial Layer Adhesion. I established
 
 Upon achieving process stability with standard calibration specimens, I advanced the system’s operational envelope to include complex, thin-wall geometries and lattice structures. This required iterative adjustments to the scan strategy—specifically modulating laser power, hatch spacing, and point distance—to maintain high geometric fidelity and minimize porosity in intricate features.
 
-  <video width="25%" controls>
+  <video width="25%" controls style="text-align: center; margin-bottom: 20px;">
     <source src="/assets/images/prima/lifting.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 
   <div style="text-align: center; margin-bottom: 20px;">
-  <img src="/assets/images/prima/examples.jpg" style="max-width: 95%; height: auto;">
+  <img src="/assets/images/prima/examples.jpg" style="max-width: 75%; height: auto;">
 </div>
 
 ## 3. Takeaways

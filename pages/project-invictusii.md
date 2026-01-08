@@ -17,7 +17,7 @@ Invictus II is the second iteration of [Porto Space Team's](https://www.portospa
   <img src="/assets/images/invictusii_thumb.png" alt="defending the dissertation" style="max-width: 25%; height: auto;">
 </div>
 
-[See more](https://www.portospaceteam.pt/en/projects/invictus)
+[Official website](https://www.portospaceteam.pt/en/projects/invictus)
 
 [< Back to Portfolio](/)
 
