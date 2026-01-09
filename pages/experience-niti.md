@@ -23,7 +23,7 @@ mathjax: true
 
 ### Context
 
-Had the oppurtunity to conclude my Master’s in Material Engineering with a specialisation in Metallurgy with this work. It is a collaboration with FEUP (Faculdade de Engenharia da Universidade do Porto) and [CATEC](https://www.catec.aero/) (Fundación Andaluza para el Desarrollo Aeroespacial), the largest Spanish technology centre focused on the aerospace and defence industry, supervised by Prof. Elsa W. Sequeiros and co-supervised by Pof. Jorgue Lino. Titled “Parameter Optimisation for Laser Powder Bed Fusion of NiTi”, it obtained a of 18 out of 20 final grade (which is the highest without any scientific publication as stated by internal faculty rules).
+Had the oppurtunity to conclude my Master's in Material Engineering with a specialisation in Metallurgy with this work. It is a collaboration with FEUP (Faculdade de Engenharia da Universidade do Porto) and [CATEC](https://www.catec.aero/) (Fundación Andaluza para el Desarrollo Aeroespacial), the largest Spanish technology centre focused on the aerospace and defence industry, supervised by [Prof. Elsa W. Sequeiros](https://orcid.org/0000-0002-5295-5648) and co-supervised by [Prof. Jorge Lino](https://orcid.org/0000-0002-9327-9092). Titled “Parameter Optimisation for Laser Powder Bed Fusion of NiTi”, it obtained a of 18 out of 20 final grade (which is the highest without any scientific publication as stated by internal faculty rules).
 
 <div style="text-align: center; margin-bottom: 20px;">
   <img src="/assets/images/niti/presenting.jpg" alt="defending the dissertation" style="max-width: 100%; height: auto;">
@@ -67,7 +67,7 @@ Manufacturing of NiTi components by L-PBF poses challenges, as expressed by some
   </p>
   <ul>
       <li><strong>Morphological and Chemical Analysis:</strong> Utilized Scanning Electron Microscopy (SEM) in Backscatter Electron (BSE) mode and Energy-Dispersive X-ray Spectroscopy (EDS) to evaluate powder morphology and detect potential contaminants.</li>
-      <li><strong>Particle Size Distribution (PSD):</strong> Implemented an automated data processing pipeline using image analysis software and Python to characterize particle diameters and distribution statistics (span, skewness, and kurtosis). [See more](https://github.com/ilidio-costa/Particle_Size_Distribution_00) </li>
+      <li><strong>Particle Size Distribution (PSD):</strong> Implemented an automated data processing pipeline using image analysis software and Python to characterize particle diameters and distribution statistics (span, skewness, and kurtosis). <a href="https://github.com/ilidio-costa/Particle_Size_Distribution_00">See more</a></li>
       <li><strong>Internal Porosity:</strong> Conducted cross-sectional analysis via Optical Microscopy (OM), involving resin mounting, precision metallographic polishing, and chemical etching to reveal internal structures.</li>     
     </ul>
 </details>

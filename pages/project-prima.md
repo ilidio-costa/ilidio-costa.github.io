@@ -40,7 +40,7 @@ A critical phase of the project focused on Initial Layer Adhesion. I established
 
 ### Scaling to Complex Geometries
 
-Upon achieving process stability with standard calibration specimens, I advanced the system’s operational envelope to include complex, thin-wall geometries and lattice structures. This required iterative adjustments to the scan strategy—specifically modulating laser power, hatch spacing, and point distance—to maintain high geometric fidelity and minimize porosity in intricate features.
+Upon achieving process stability with standard calibration specimens, full components were fabricated with increasing complexities.
 
 <div style="text-align: center;">
   <video width="40%" controls style="text-align: center; margin-bottom: 20px;">
