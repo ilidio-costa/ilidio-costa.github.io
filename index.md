@@ -13,21 +13,21 @@ experience_gallery:
   
   - image_path: /assets/images/pst-thumb.png
     title: "Engineering Journey & Leadership Progression"
-    excerpt: "**(October 2023 - October 2025)**<br>Aerospace Engineering: From Chemical Research to Hybrid Propulsion Leadership."
+    excerpt: "**(October 2023 - Present)**<br>Aerospace Engineering: From Chemical Research to Hybrid Propulsion Leadership."
     url: "/pages/experience-pst-advisor/"
     btn_label: "View Role"
     btn_class: "btn--inverse"
 
   - image_path: /assets/images/mater-thumb.png
     title: "Student Researcher"
-    excerpt: "**(August 2023 - August 2024)**<br>Description."
+    excerpt: "**(August 2023 - August 2024)**<br>Battery and Energy Storage Research."
     url: "/pages/experience-mater/"
     btn_label: "View Role"
     btn_class: "btn--inverse"
 
   - image_path: /assets/images/addcreative-thumb.png
     title: "Material Engineer Intern"
-    excerpt: "**(February 2023 - October 2023)**<br>Help INVICTUS hybrid rocket fuel."
+    excerpt: "**(February 2023 - October 2023)**<br>Powder characterization of large scale PBF-LB"
     url: "/pages/experience-addcreative/"
     btn_label: "View Role"
     btn_class: "btn--inverse"
@@ -245,7 +245,7 @@ publications_archive:
 * Intensive 5-day training on Sintering, MIM, and HIP technologies.
 
 **BSc Materials Engineering** | *FEUP, Porto (2023)*
-* **Dissertation:** Topological Optimization of Avionic Bay Support.
+* **Dissertation:** Characterization of AISI 316L powders used in L-BPF.
 
 <br>
 
